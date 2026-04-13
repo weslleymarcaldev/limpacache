@@ -5,10 +5,11 @@ src/**
 .osp/**
 .claude/**
 webpack.config.js
+webpack.pro.js
 tsconfig.json
 media/ICON_INSTRUCTIONS.md
 **/*.ts
-!dist/**
-dist/**/*.map
 node_modules/**
 out/**
+dist/**
+!dist/extension.js
