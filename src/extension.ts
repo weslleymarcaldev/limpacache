@@ -15,6 +15,7 @@ export async function activate(context: vscode.ExtensionContext) {
   statusBar = new StatusBarManager(context, cacheManager);
   scheduler = new Scheduler(context, cacheManager, licenseManager);
   webviewPanel.setScheduler(scheduler);
+  webviewPanel.setOnClean(() => statusBar.refresh());
 
   // --- Commands ---
 

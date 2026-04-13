@@ -23,6 +23,7 @@ export class WebviewPanel {
   private panel: vscode.WebviewPanel | undefined;
   private aiAssistant: AiAssistant;
   private scheduler: Scheduler | undefined;
+  private onCleanCallback: (() => void) | undefined;
   private currentItems: CacheItem[] = [];
 
   constructor(
@@ -35,6 +36,10 @@ export class WebviewPanel {
 
   setScheduler(scheduler: Scheduler): void {
     this.scheduler = scheduler;
+  }
+
+  setOnClean(callback: () => void): void {
+    this.onCleanCallback = callback;
   }
 
   show(): void {
@@ -76,6 +81,13 @@ export class WebviewPanel {
         this.panel?.webview.postMessage({ type: 'cleaning' });
         const r = await this.cacheManager.cleanItems(toClean);
         this.panel?.webview.postMessage({ type: 'cleanResult', cleaned: r.cleaned, failed: r.failed, freedBytes: r.freedBytes, freedFormatted: formatBytes(r.freedBytes), errors: r.errors });
+        this.onCleanCallback?.();
+        if (r.cleaned > 0) {
+          vscode.window.showInformationMessage(`LimpaCache: ${r.cleaned} item(s) limpo(s), liberou ${formatBytes(r.freedBytes)}.`);
+        }
+        if (r.failed > 0) {
+          vscode.window.showWarningMessage(`LimpaCache: ${r.failed} item(s) falharam. Verifique permissões.`);
+        }
         await this.performScan();
         break;
       }
@@ -84,6 +96,13 @@ export class WebviewPanel {
         this.panel?.webview.postMessage({ type: 'cleaning' });
         const r = await this.cacheManager.cleanItems(this.currentItems);
         this.panel?.webview.postMessage({ type: 'cleanResult', cleaned: r.cleaned, failed: r.failed, freedBytes: r.freedBytes, freedFormatted: formatBytes(r.freedBytes), errors: r.errors });
+        this.onCleanCallback?.();
+        if (r.cleaned > 0) {
+          vscode.window.showInformationMessage(`LimpaCache: ${r.cleaned} item(s) limpo(s), liberou ${formatBytes(r.freedBytes)}.`);
+        }
+        if (r.failed > 0) {
+          vscode.window.showWarningMessage(`LimpaCache: ${r.failed} item(s) falharam. Verifique permissões.`);
+        }
         await this.performScan();
         break;
       }
@@ -306,14 +325,14 @@ code { font-family:monospace; background:var(--bg2); padding:1px 4px; border-rad
   <span style="font-size:18px">🧹</span>
   <span class="header-title">LimpaCache</span>
   <span class="badge ${isPro ? 'pro' : 'free'}">${isPro ? '✨ Pro' : 'Free'}</span>
-  <button class="btn btn-ghost" onclick="openSettings()" style="padding:3px 8px;" title="Settings">⚙</button>
+  <button class="btn btn-ghost" id="btn-settings" style="padding:3px 8px;" title="Settings">⚙</button>
 </div>
 
 <div class="tabs">
-  <button class="tab-btn active" data-tab="dashboard" onclick="switchTab('dashboard')">Dashboard</button>
-  <button class="tab-btn" data-tab="ai" onclick="switchTab('ai')">AI Assistant<span class="pb">✨</span></button>
-  <button class="tab-btn" data-tab="schedule" onclick="switchTab('schedule')">Schedule<span class="pb">✨</span></button>
-  <button class="tab-btn" data-tab="upgrade" onclick="switchTab('upgrade')">${isPro ? 'About' : 'Upgrade'}</button>
+  <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
+  <button class="tab-btn" data-tab="ai">AI Assistant<span class="pb">✨</span></button>
+  <button class="tab-btn" data-tab="schedule">Schedule<span class="pb">✨</span></button>
+  <button class="tab-btn" data-tab="upgrade">${isPro ? 'About' : 'Upgrade'}</button>
 </div>
 
 <!-- DASHBOARD -->
@@ -324,28 +343,28 @@ code { font-family:monospace; background:var(--bg2); padding:1px 4px; border-rad
     <div class="stat"><div class="stat-val" id="s-safe">–</div><div class="stat-lbl">Safe to Delete</div></div>
   </div>
   <div class="btn-row">
-    <button class="btn btn-primary" onclick="scan()" id="btn-scan"><span id="scan-spin" class="spinner hidden"></span>🔍 Scan</button>
-    <button class="btn btn-danger"  onclick="cleanSelected()">🗑 Clean Selected</button>
-    <button class="btn btn-ghost"   onclick="cleanAll()">⚡ Clean All Safe</button>
-    <button class="btn btn-ghost"   onclick="generateScript()" title="Generate shell script (Pro)">📜 Script <span style="color:var(--pro);font-size:10px">✨</span></button>
+    <button class="btn btn-primary" id="btn-scan"><span id="scan-spin" class="spinner hidden"></span>🔍 Scan</button>
+    <button class="btn btn-danger"  id="btn-clean-sel">🗑 Clean Selected</button>
+    <button class="btn btn-ghost"   id="btn-clean-all">⚡ Clean All Safe</button>
+    <button class="btn btn-ghost"   id="btn-script" title="Generate shell script (Pro)">📜 Script <span style="color:var(--pro);font-size:10px">✨</span></button>
   </div>
   <div class="filter-row">
-    <input type="text" id="filter-q" placeholder="Filter..." oninput="applyFilter()">
-    <select id="filter-cat" onchange="applyFilter()">
+    <input type="text" id="filter-q" placeholder="Filter...">
+    <select id="filter-cat">
       <option value="all">All categories</option>
       <option value="project">Project</option>
       <option value="ide">IDE</option>
     </select>
-    <select id="sort-by" onchange="applyFilter()">
+    <select id="sort-by">
       <option value="size">Sort by size</option>
       <option value="name">Sort by name</option>
       <option value="category">Sort by category</option>
     </select>
   </div>
   <div class="sel-row">
-    <span class="sel-link" onclick="selAll(true)">Select all</span> ·
-    <span class="sel-link" onclick="selAll(false)">Deselect all</span> ·
-    <span class="sel-link" onclick="selSafe()">Safe only</span>
+    <span class="sel-link" id="sel-all">Select all</span> ·
+    <span class="sel-link" id="sel-none">Deselect all</span> ·
+    <span class="sel-link" id="sel-safe">Safe only</span>
     <span id="sel-count" class="muted" style="margin-left:8px;"></span>
   </div>
   <div id="scan-status" class="muted mb8 hidden"><span class="spinner"></span> Scanning...</div>
@@ -357,7 +376,7 @@ code { font-family:monospace; background:var(--bg2); padding:1px 4px; border-rad
   <div id="script-panel" class="hidden" style="margin-top:14px;">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
       <strong style="font-size:12px">Generated Script</strong>
-      <button class="btn btn-ghost" onclick="copyScript()" style="font-size:11px;padding:3px 8px;">📋 Copy</button>
+      <button class="btn btn-ghost" id="btn-copy-script" style="font-size:11px;padding:3px 8px;">📋 Copy</button>
     </div>
     <div class="script-box" id="script-content"></div>
   </div>
@@ -367,16 +386,16 @@ code { font-family:monospace; background:var(--bg2); padding:1px 4px; border-rad
 <div class="tab-content" id="tab-ai">
 ${isPro ? `
   <div class="btn-row">
-    <button class="btn btn-pro" onclick="aiAnalyze()">🔬 Analyze All Caches</button>
-    <button class="btn btn-ghost" onclick="clearChat()">🗑 Clear Chat</button>
+    <button class="btn btn-pro" id="btn-analyze">🔬 Analyze All Caches</button>
+    <button class="btn btn-ghost" id="btn-clear-chat">🗑 Clear Chat</button>
   </div>
   <div id="ai-analysis" class="hidden" style="margin-bottom:14px;"></div>
   <div class="quick-ps">
-    <button class="quick-p" onclick="qp(this.textContent)">O que posso deletar com segurança?</button>
-    <button class="quick-p" onclick="qp(this.textContent)">O que está ocupando mais espaço?</button>
-    <button class="quick-p" onclick="qp(this.textContent)">Recomende uma estratégia de limpeza</button>
-    <button class="quick-p" onclick="qp(this.textContent)">É seguro deletar node_modules/.cache?</button>
-    <button class="quick-p" onclick="qp(this.textContent)">Quais caches se regeneram automaticamente?</button>
+    <button class="quick-p">O que posso deletar com segurança?</button>
+    <button class="quick-p">O que está ocupando mais espaço?</button>
+    <button class="quick-p">Recomende uma estratégia de limpeza</button>
+    <button class="quick-p">É seguro deletar node_modules/.cache?</button>
+    <button class="quick-p">Quais caches se regeneram automaticamente?</button>
   </div>
   <div class="chat-wrap">
     <div class="chat-msgs" id="chat-msgs">
@@ -386,16 +405,16 @@ ${isPro ? `
       </div>
     </div>
     <div class="chat-in-row">
-      <textarea class="chat-in" id="chat-in" placeholder="Pergunte sobre seus caches..." onkeydown="chatKey(event)" oninput="autoH(this)"></textarea>
-      <button class="btn btn-pro" onclick="sendChat()" id="btn-send">Enviar</button>
+      <textarea class="chat-in" id="chat-in" placeholder="Pergunte sobre seus caches..."></textarea>
+      <button class="btn btn-pro" id="btn-send">Enviar</button>
     </div>
   </div>
 ` : `
   <div class="upgrade-card">
     <div class="upgrade-title">✨ AI Assistant — Recurso Pro</div>
     <p class="muted" style="margin-bottom:12px;">Desbloqueie análise de cache com IA usando Claude. Recomendações inteligentes, comandos em linguagem natural e estratégias de limpeza.</p>
-    <button class="btn btn-pro" onclick="setApiKey()">Configurar API Key Anthropic — Desbloquear Pro</button>
-    <p class="muted mt8">Obtenha sua chave em <a href="#" onclick="setApiKey()">console.anthropic.com</a></p>
+    <button class="btn btn-pro" id="btn-set-key-ai">Configurar API Key Anthropic — Desbloquear Pro</button>
+    <p class="muted mt8">Obtenha sua chave em <a href="#" id="lnk-set-key-ai">console.anthropic.com</a></p>
   </div>
   <p class="muted">Os recursos Pro usam sua própria API key Anthropic — você controla o uso e os custos. O modelo Haiku é muito econômico.</p>
 `}
@@ -412,21 +431,21 @@ ${isPro ? `
     </div>
     <p class="muted mb8">Escolha um preset ou insira uma expressão cron para limpar caches automaticamente.</p>
     <div class="preset-grid">
-      <button class="preset-btn" onclick="setPreset('0 9 * * 1')"><div class="preset-lbl">Toda Segunda</div><div class="preset-cron">0 9 * * 1</div></button>
-      <button class="preset-btn" onclick="setPreset('0 9 * * 6')"><div class="preset-lbl">Todo Sábado</div><div class="preset-cron">0 9 * * 6</div></button>
-      <button class="preset-btn" onclick="setPreset('0 9 1 * *')"><div class="preset-lbl">Dia 1 do Mês</div><div class="preset-cron">0 9 1 * *</div></button>
-      <button class="preset-btn" onclick="setPreset('0 */6 * * *')"><div class="preset-lbl">A cada 6h</div><div class="preset-cron">0 */6 * * *</div></button>
-      <button class="preset-btn" onclick="setPreset('0 8 * * *')"><div class="preset-lbl">Diário às 8h</div><div class="preset-cron">0 8 * * *</div></button>
-      <button class="preset-btn" onclick="setPreset('0 18 * * 5')"><div class="preset-lbl">Sextas às 18h</div><div class="preset-cron">0 18 * * 5</div></button>
+      <button class="preset-btn" data-cron="0 9 * * 1"><div class="preset-lbl">Toda Segunda</div><div class="preset-cron">0 9 * * 1</div></button>
+      <button class="preset-btn" data-cron="0 9 * * 6"><div class="preset-lbl">Todo Sábado</div><div class="preset-cron">0 9 * * 6</div></button>
+      <button class="preset-btn" data-cron="0 9 1 * *"><div class="preset-lbl">Dia 1 do Mês</div><div class="preset-cron">0 9 1 * *</div></button>
+      <button class="preset-btn" data-cron="0 */6 * * *"><div class="preset-lbl">A cada 6h</div><div class="preset-cron">0 */6 * * *</div></button>
+      <button class="preset-btn" data-cron="0 8 * * *"><div class="preset-lbl">Diário às 8h</div><div class="preset-cron">0 8 * * *</div></button>
+      <button class="preset-btn" data-cron="0 18 * * 5"><div class="preset-lbl">Sextas às 18h</div><div class="preset-cron">0 18 * * 5</div></button>
     </div>
     <div class="cron-row">
       <input type="text" class="cron-in" id="cron-in" placeholder="0 9 * * 1">
-      <button class="btn btn-primary" onclick="saveSched()">Salvar</button>
-      <button class="btn btn-ghost"   onclick="clearSched()">Limpar</button>
+      <button class="btn btn-primary" id="btn-save-sched">Salvar</button>
+      <button class="btn btn-ghost"   id="btn-clear-sched">Limpar</button>
     </div>
     <div class="cron-help">
       Formato: <code>minuto hora dia mês diaSemana</code> | Ex: <code>0 9 * * 1</code> = toda segunda às 9h |
-      <a href="#" onclick="suggestSched()">✨ Pedir sugestão à IA</a>
+      <a href="#" id="lnk-suggest-sched">✨ Pedir sugestão à IA</a>
     </div>
   </div>
   <div id="sched-suggestion" class="hidden sched-card" style="border-color:var(--pro)">
@@ -437,7 +456,7 @@ ${isPro ? `
   <div class="upgrade-card">
     <div class="upgrade-title">✨ Agendamento Automático — Recurso Pro</div>
     <p class="muted" style="margin-bottom:12px;">Configure limpeza automática em horários específicos. Mantenha o workspace limpo sem pensar nisso.</p>
-    <button class="btn btn-pro" onclick="setApiKey()">Desbloquear Pro — Configurar API Key</button>
+    <button class="btn btn-pro" id="btn-set-key-sched">Desbloquear Pro — Configurar API Key</button>
   </div>
 `}
 </div>
@@ -449,14 +468,14 @@ ${isPro ? `
     <div style="padding:14px;background:var(--card);border:1px solid var(--pro);border-radius:var(--r);margin-bottom:14px;">
       <div style="font-size:14px;font-weight:600;color:var(--pro);margin-bottom:6px;">✨ Pro Ativo</div>
       <div class="muted">Sua API key Anthropic está configurada. Todos os recursos Pro estão disponíveis.</div>
-      <button class="btn btn-ghost mt8" onclick="removeApiKey()" style="font-size:11px;padding:3px 8px;">Remover API Key</button>
+      <button class="btn btn-ghost mt8" id="btn-remove-key" style="font-size:11px;padding:3px 8px;">Remover API Key</button>
     </div>
     ` : `
     <div class="upgrade-card">
       <div class="upgrade-title">✨ Upgrade para Pro</div>
       <p class="muted" style="margin-bottom:12px;">Configure sua API key Anthropic para desbloquear análise de cache com IA Claude.</p>
-      <button class="btn btn-pro" onclick="setApiKey()" style="margin-bottom:6px;">Configurar API Key Anthropic</button>
-      <div class="muted">Obtenha uma chave em <a href="#" onclick="setApiKey()">console.anthropic.com</a></div>
+      <button class="btn btn-pro" id="btn-set-key-upgrade" style="margin-bottom:6px;">Configurar API Key Anthropic</button>
+      <div class="muted">Obtenha uma chave em <a href="#" id="lnk-set-key-upgrade">console.anthropic.com</a></div>
     </div>
     `}
     <h3 style="font-size:13px;margin-bottom:10px;">Comparação de Planos</h3>
@@ -541,10 +560,17 @@ function showCleanResult(m) {
 function renderList(items) {
   const c=id('cache-list');
   if (!items.length) { c.innerHTML='<div class="empty"><div class="empty-icon">✅</div><div class="empty-title">Nenhum cache detectado</div><div>Workspace limpo!</div></div>'; return; }
+  const hasIde = items.some(i=>i.category==='ide');
+  const ideNote = hasIde
+    ? \`<div style="margin-top:10px;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--r);font-size:11px;color:var(--vscode-descriptionForeground);">
+        ℹ️ <strong>Caches de IDEs</strong> (VS Code, JetBrains, etc.) são <strong>recriados automaticamente</strong> enquanto o programa estiver aberto.
+        Isso é normal — feche o IDE e reabra para que o cache fique zerado por mais tempo.
+      </div>\`
+    : '';
   c.innerHTML=items.map(i=>{
     const sc=i.sizeBytes>1e9?'huge':i.sizeBytes>1e8?'large':'';
     return \`<div class="cache-item\${!i.safe?' unsafe':''}">
-      <input type="checkbox" id="c-\${i.id}" \${i.selected?'checked':''} onchange="updSel()">
+      <input type="checkbox" id="c-\${i.id}" \${i.selected?'checked':''}>
       <div class="cache-info">
         <div class="cache-label" title="\${i.fullPath}">\${i.label}</div>
         <div class="cache-meta">\${i.description}</div>
@@ -554,7 +580,7 @@ function renderList(items) {
       \${!i.safe?'<span class="warn-lbl">⚠ cuidado</span>':''}
       <span class="cache-size \${sc}">\${fmtB(i.sizeBytes)}</span>
     </div>\`;
-  }).join('');
+  }).join('')+ideNote;
   updSel();
 }
 function applyFilter() {
@@ -655,7 +681,7 @@ function renderSugg(raw) {
       <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
         <code style="font-size:13px;">\${d.cronExpression}</code>
         <span class="muted">(\${d.description})</span>
-        <button class="btn btn-ghost" onclick="setPreset('\${d.cronExpression}')" style="font-size:11px;padding:3px 8px;">Usar</button>
+        <button class="btn btn-ghost" data-cron="\${d.cronExpression}" style="font-size:11px;padding:3px 8px;">Usar</button>
       </div>\`;
   } catch { c.innerHTML='<pre style="font-size:11px;white-space:pre-wrap;">'+raw+'</pre>'; }
   el.classList.remove('hidden');
@@ -674,6 +700,76 @@ function toast(msg,type='info') {
   const t=id('toast'); t.textContent=msg; t.className=type; t.style.display='block'; t.style.opacity='1';
   setTimeout(()=>{t.style.opacity='0';setTimeout(()=>t.style.display='none',300);},3500);
 }
+
+// ── Event listeners (replaces all inline onclick/oninput/onchange handlers) ──
+function on(elId, evt, fn) { const el=id(elId); if(el) el.addEventListener(evt,fn); }
+function onQ(sel, evt, fn) { document.querySelectorAll(sel).forEach(el=>el.addEventListener(evt,fn)); }
+
+// Header
+on('btn-settings','click',()=>openSettings());
+
+// Tabs – delegation
+document.querySelector('.tabs')?.addEventListener('click',e=>{
+  const btn=e.target.closest('[data-tab]');
+  if(btn) switchTab(btn.dataset.tab);
+});
+
+// Dashboard actions
+on('btn-scan','click',()=>scan());
+on('btn-clean-sel','click',()=>cleanSelected());
+on('btn-clean-all','click',()=>cleanAll());
+on('btn-script','click',()=>generateScript());
+on('btn-copy-script','click',()=>copyScript());
+
+// Filters
+on('filter-q','input',()=>applyFilter());
+on('filter-cat','change',()=>applyFilter());
+on('sort-by','change',()=>applyFilter());
+
+// Selection links
+on('sel-all','click',()=>selAll(true));
+on('sel-none','click',()=>selAll(false));
+on('sel-safe','click',()=>selSafe());
+
+// Cache list – delegation for checkboxes
+id('cache-list')?.addEventListener('change',e=>{
+  if(e.target.matches('[id^="c-"]')) updSel();
+});
+
+// AI tab
+on('btn-analyze','click',()=>aiAnalyze());
+on('btn-clear-chat','click',()=>clearChat());
+on('btn-send','click',()=>sendChat());
+on('chat-in','keydown',e=>chatKey(e));
+on('chat-in','input',function(){ autoH(this); });
+document.querySelector('.quick-ps')?.addEventListener('click',e=>{
+  const btn=e.target.closest('.quick-p');
+  if(btn) qp(btn.textContent);
+});
+// API key buttons (free plan)
+on('btn-set-key-ai','click',()=>setApiKey());
+on('lnk-set-key-ai','click',e=>{e.preventDefault();setApiKey();});
+
+// Schedule tab
+document.querySelector('.preset-grid')?.addEventListener('click',e=>{
+  const btn=e.target.closest('[data-cron]');
+  if(btn) setPreset(btn.dataset.cron);
+});
+on('btn-save-sched','click',()=>saveSched());
+on('btn-clear-sched','click',()=>clearSched());
+on('lnk-suggest-sched','click',e=>{e.preventDefault();suggestSched();});
+on('btn-set-key-sched','click',()=>setApiKey());
+
+// Upgrade tab
+on('btn-remove-key','click',()=>removeApiKey());
+on('btn-set-key-upgrade','click',()=>setApiKey());
+on('lnk-set-key-upgrade','click',e=>{e.preventDefault();setApiKey();});
+
+// Suggestion "Usar" button – delegation on sched-suggestion
+id('sched-suggestion')?.addEventListener('click',e=>{
+  const btn=e.target.closest('[data-cron]');
+  if(btn) setPreset(btn.dataset.cron);
+});
 </script>
 </body>
 </html>`;
