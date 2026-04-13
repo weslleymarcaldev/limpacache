@@ -1,0 +1,223 @@
+{
+  "name": "limpacache",
+  "displayName": "LimpaCache - Smart Cache Cleaner",
+  "description": "Intelligent cache cleaner for projects and IDE with AI-powered analysis. Keep your workspace fast and clean.",
+  "version": "1.0.0",
+  "publisher": "weslleymarcal",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#1a1a2e",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Formatters"
+  ],
+  "keywords": [
+    "cache",
+    "clean",
+    "cleaner",
+    "performance",
+    "node_modules",
+    "build",
+    "ai",
+    "claude",
+    "productivity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weslleymarcaldev/limpacache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weslleymarcaldev/limpacache/issues"
+  },
+  "homepage": "https://github.com/weslleymarcaldev/limpacache#readme",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "limpacache.openPanel",
+        "title": "LimpaCache: Open Dashboard",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "limpacache.cleanAll",
+        "title": "LimpaCache: Clean All Caches",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "limpacache.cleanProject",
+        "title": "LimpaCache: Clean Project Caches"
+      },
+      {
+        "command": "limpacache.cleanIDE",
+        "title": "LimpaCache: Clean IDE Caches"
+      },
+      {
+        "command": "limpacache.scanCaches",
+        "title": "LimpaCache: Scan and Show Cache Report"
+      },
+      {
+        "command": "limpacache.aiAnalyze",
+        "title": "LimpaCache: AI Analyze Caches \u2728 Pro",
+        "icon": "$(sparkle)"
+      },
+      {
+        "command": "limpacache.aiChat",
+        "title": "LimpaCache: AI Assistant \u2728 Pro"
+      },
+      {
+        "command": "limpacache.scheduleClean",
+        "title": "LimpaCache: Schedule Auto-Clean \u2728 Pro"
+      },
+      {
+        "command": "limpacache.setApiKey",
+        "title": "LimpaCache: Set Anthropic API Key (Unlock Pro)"
+      },
+      {
+        "command": "limpacache.removeApiKey",
+        "title": "LimpaCache: Remove API Key"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "limpacache.cleanAll",
+          "group": "navigation",
+          "when": "explorerResourceIsFolder"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "limpacache.openPanel",
+          "when": "view == limpacache.mainView",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "LimpaCache",
+      "properties": {
+        "limpacache.autoScanOnStartup": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically scan for caches when VS Code starts"
+        },
+        "limpacache.showStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show cache size indicator in the status bar"
+        },
+        "limpacache.confirmBeforeClean": {
+          "type": "boolean",
+          "default": true,
+          "description": "Ask for confirmation before cleaning caches"
+        },
+        "limpacache.excludePatterns": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "description": "Glob patterns to exclude from cache scanning"
+        },
+        "limpacache.customCachePaths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "description": "[Pro] Additional custom cache paths to include in scanning"
+        },
+        "limpacache.autoCleanSchedule": {
+          "type": "string",
+          "default": "",
+          "description": "[Pro] Cron expression for automatic cache cleaning (e.g., '0 9 * * 1' for every Monday at 9am)"
+        },
+        "limpacache.aiModel": {
+          "type": "string",
+          "default": "claude-haiku-4-5-20251001",
+          "enum": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-6"
+          ],
+          "enumDescriptions": [
+            "Claude Haiku - Fast and economical (recommended)",
+            "Claude Sonnet - Balanced performance",
+            "Claude Opus - Most capable"
+          ],
+          "description": "[Pro] AI model used for cache analysis"
+        },
+        "limpacache.cleanOnSave": {
+          "type": "boolean",
+          "default": false,
+          "description": "[Pro] Automatically clean temp caches when saving files"
+        }
+      }
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "limpacache",
+          "title": "LimpaCache",
+          "icon": "media/sidebar-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "limpacache": [
+        {
+          "type": "webview",
+          "id": "limpacache.mainView",
+          "name": "Cache Cleaner"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "limpacache.cleanAll",
+        "key": "ctrl+shift+alt+c",
+        "mac": "cmd+shift+alt+c"
+      },
+      {
+        "command": "limpacache.openPanel",
+        "key": "ctrl+shift+alt+l",
+        "mac": "cmd+shift+alt+l"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "lint": "eslint src",
+    "test": "vscode-test",
+    "package:free": "npm run package && vsce package --out limpacache-free.vsix",
+    "package:pro": "cp src/pro/aiAssistant.ts src/aiAssistant.ts && cp src/pro/scheduler.ts src/scheduler.ts && npm run package && vsce package --out limpacache-pro.vsix ; git checkout src/aiAssistant.ts src/scheduler.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}

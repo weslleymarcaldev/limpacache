@@ -1,0 +1,10 @@
+node_modules/
+out/
+dist/
+*.vsix
+.vscode-test/
+.claude/
+.osp/
+
+# Pro source files — distributed via Gumroad only
+src/pro/
