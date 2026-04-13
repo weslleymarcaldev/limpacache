@@ -3,8 +3,8 @@
 
 const path = require('path');
 
-/** @type {import('webpack').Configuration} */
-const config = {
+/** @param {any} _env @param {{ mode: string }} argv */
+module.exports = (_env, argv) => ({
   target: 'node',
   mode: 'none',
   entry: './src/extension.ts',
@@ -28,8 +28,6 @@ const config = {
       }
     ]
   },
-  devtool: 'nosources-source-map',
+  devtool: argv.mode === 'production' ? false : 'nosources-source-map',
   infrastructureLogging: { level: 'log' }
-};
-
-module.exports = config;
+});

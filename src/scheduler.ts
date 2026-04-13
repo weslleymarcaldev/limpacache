@@ -3,9 +3,9 @@ import { LicenseManager } from './licenseManager';
 
 export class Scheduler {
   constructor(
-    private readonly _context: vscode.ExtensionContext,
-    private readonly _cacheManager: unknown,
-    private readonly _licenseManager: LicenseManager
+    _context: vscode.ExtensionContext,
+    _cacheManager: unknown,
+    _licenseManager: LicenseManager
   ) {}
 
   async initialize(): Promise<void> {}

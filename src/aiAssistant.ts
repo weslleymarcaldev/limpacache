@@ -25,8 +25,8 @@ export interface AiRecommendation {
 
 export class AiAssistant {
   constructor(
-    private readonly licenseManager: LicenseManager,
-    private readonly _cacheManager: unknown
+    _licenseManager: LicenseManager,
+    _cacheManager: unknown
   ) {}
 
   async analyzeAndRecommend(_items: CacheItem[]): Promise<AiAnalysisResult> {

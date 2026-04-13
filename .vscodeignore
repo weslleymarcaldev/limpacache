@@ -2,9 +2,13 @@
 .vscode-test/**
 src/**
 .gitignore
+.osp/**
+.claude/**
 webpack.config.js
-**/*.map
+tsconfig.json
+media/ICON_INSTRUCTIONS.md
 **/*.ts
 !dist/**
+dist/**/*.map
 node_modules/**
 out/**
