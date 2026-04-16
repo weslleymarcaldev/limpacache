@@ -85,9 +85,6 @@ export class WebviewPanel {
         if (r.cleaned > 0) {
           vscode.window.showInformationMessage(`LimpaCache: ${r.cleaned} item(s) limpo(s), liberou ${formatBytes(r.freedBytes)}.`);
         }
-        if (r.failed > 0) {
-          vscode.window.showWarningMessage(`LimpaCache: ${r.failed} item(s) falharam. Verifique permissões.`);
-        }
         await this.performScan();
         break;
       }
@@ -99,9 +96,6 @@ export class WebviewPanel {
         this.onCleanCallback?.();
         if (r.cleaned > 0) {
           vscode.window.showInformationMessage(`LimpaCache: ${r.cleaned} item(s) limpo(s), liberou ${formatBytes(r.freedBytes)}.`);
-        }
-        if (r.failed > 0) {
-          vscode.window.showWarningMessage(`LimpaCache: ${r.failed} item(s) falharam. Verifique permissões.`);
         }
         await this.performScan();
         break;
@@ -553,10 +547,25 @@ function generateScript() { vscode.postMessage({type:'generateScript'}); }
 function showScanSpin(on) { id('scan-status').classList.toggle('hidden',!on); id('scan-spin').classList.toggle('hidden',!on); id('btn-scan').disabled=on; }
 function showCleanResult(m) {
   const el=id('clean-result');
-  const c=m.failed===0?'var(--success)':'var(--warn)';
-  el.innerHTML=\`<span style="color:\${c};font-weight:600;">✓ \${m.cleaned} limpo(s), liberou <strong>\${m.freedFormatted}</strong>\${m.failed?' — '+m.failed+' falhou':''}</span>\${m.errors.length?'<br><span style="color:var(--error);font-size:11px;">'+m.errors.join('<br>')+'</span>':''}\`;
+  const ok=m.failed===0;
+  let html=\`<div style="display:flex;align-items:center;gap:6px;">
+    <span style="color:\${ok?'var(--success)':'var(--warn)'};font-size:15px;">\${ok?'✓':'⚠'}</span>
+    <span style="font-weight:600;">\${m.cleaned} limpo(s), liberou \${m.freedFormatted}\${m.failed?' · '+m.failed+' não removido(s)':''}</span>
+  </div>\`;
+  if (m.errors.length) {
+    html+=\`<details style="margin-top:6px;" open>
+      <summary style="cursor:pointer;font-size:11px;color:var(--vscode-descriptionForeground);user-select:none;">Ver detalhes (\${m.errors.length} arquivo(s) bloqueado(s))</summary>
+      <ul style="margin:5px 0 0 14px;padding:0;list-style:disc;font-size:11px;color:var(--error);line-height:1.7;">
+        \${m.errors.map(e=>\`<li>\${e}</li>\`).join('')}
+      </ul>
+      <p style="font-size:11px;color:var(--vscode-descriptionForeground);margin-top:5px;">
+        💡 Arquivos em uso por outro processo (VS Code, antivírus, etc.) não podem ser removidos enquanto estão abertos.
+      </p>
+    </details>\`;
+  }
+  el.innerHTML=html;
   el.classList.remove('hidden');
-  setTimeout(()=>el.classList.add('hidden'),8000);
+  if (ok) { setTimeout(()=>el.classList.add('hidden'),8000); }
 }
 function renderList(items) {
   const c=id('cache-list');

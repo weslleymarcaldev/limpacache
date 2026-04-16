@@ -2,7 +2,7 @@
   "name": "limpacache",
   "displayName": "LimpaCache - Smart Cache Cleaner",
   "description": "Intelligent cache cleaner for projects and IDE with AI-powered analysis. Keep your workspace fast and clean.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "weslleymarcal",
   "license": "MIT",
   "icon": "media/icon.png",

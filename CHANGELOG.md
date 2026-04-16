@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2] - 2026-04-15
+
+### Corrigido
+
+- Política de Segurança de Conteúdo (CSP) atualizada para permitir estilos inline no webview
+- Handlers `onclick` inline no dashboard não eram executados devido a restrição do CSP
+- Botões do dashboard não respondiam corretamente aos cliques
+- Aviso de regeneração adicionado na lista quando itens de cache do IDE são detectados (IDE pode recriar caches automaticamente)
+- Notificação exibida após limpeza informando o espaço liberado em bytes
+- Status bar atualizada imediatamente após limpeza pelo dashboard
+- Recomendações de extensões adicionadas ao workspace (`.vscode/extensions.json`)
+
 ## [1.0.0] - 2026-04-12
 
 ### Adicionado

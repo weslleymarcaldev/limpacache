@@ -203,18 +203,107 @@ export class CacheManager {
         const size = item.sizeBytes;
         const stat = fs.statSync(item.fullPath);
         if (stat.isDirectory()) {
-          fs.rmSync(item.fullPath, { recursive: true, force: true });
+          const lockedFiles = await this.removeDirectorySafe(item.fullPath);
+          if (lockedFiles.length === 0) {
+            result.cleaned++;
+            result.freedBytes += size;
+          } else {
+            result.failed++;
+            lockedFiles.forEach(e => result.errors.push(`${item.label} — ${e}`));
+          }
         } else {
-          fs.unlinkSync(item.fullPath);
+          await this.removeFileSafe(item.fullPath);
+          result.cleaned++;
+          result.freedBytes += size;
         }
-        result.cleaned++;
-        result.freedBytes += size;
       } catch (err) {
         result.failed++;
-        result.errors.push(`${item.label}: ${err instanceof Error ? err.message : String(err)}`);
+        result.errors.push(`${item.label}: ${this.describeError(err)}`);
       }
     }
     return result;
+  }
+
+  /**
+   * Tenta deletar um diretório inteiro. No Windows, se falhar por arquivo em uso,
+   * faz uma nova tentativa após 200ms e, se ainda falhar, deleta arquivo por arquivo
+   * pulando os que estão bloqueados. Retorna lista de arquivos que não puderam ser removidos.
+   */
+  private async removeDirectorySafe(dirPath: string): Promise<string[]> {
+    try {
+      fs.rmSync(dirPath, { recursive: true, force: true });
+      return [];
+    } catch (err: any) {
+      if (process.platform !== 'win32') { throw err; }
+      if (!['EBUSY', 'EPERM', 'EACCES'].includes(err.code)) { throw err; }
+      // Aguarda e tenta novamente — alguns locks são momentâneos
+      await new Promise(r => setTimeout(r, 200));
+      try {
+        fs.rmSync(dirPath, { recursive: true, force: true });
+        return [];
+      } catch {
+        // Ainda bloqueado: deleta arquivo por arquivo, pulando os travados
+        return this.removeContentsFileByFile(dirPath);
+      }
+    }
+  }
+
+  /**
+   * Remove o conteúdo de um diretório arquivo por arquivo, pulando arquivos em uso.
+   * Retorna a lista de arquivos que não puderam ser removidos.
+   */
+  private removeContentsFileByFile(dirPath: string): string[] {
+    const locked: string[] = [];
+    try {
+      const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+      for (const entry of entries) {
+        const full = path.join(dirPath, entry.name);
+        try {
+          if (entry.isDirectory()) {
+            const sub = this.removeContentsFileByFile(full);
+            locked.push(...sub);
+            try { fs.rmdirSync(full); } catch { /* ainda tem arquivos travados dentro */ }
+          } else {
+            fs.unlinkSync(full);
+          }
+        } catch (err: any) {
+          if (['EBUSY', 'EPERM', 'EACCES'].includes(err.code)) {
+            locked.push(`${entry.name} (em uso pelo sistema)`);
+          }
+          // outros erros: pula silenciosamente
+        }
+      }
+    } catch { /* não conseguiu listar o diretório */ }
+    try { fs.rmdirSync(dirPath); } catch { /* ignora se ainda não está vazio */ }
+    return locked;
+  }
+
+  /** Tenta remover um arquivo; no Windows faz uma tentativa extra após 200ms se travar. */
+  private async removeFileSafe(filePath: string): Promise<void> {
+    try {
+      fs.unlinkSync(filePath);
+    } catch (err: any) {
+      if (process.platform === 'win32' && ['EBUSY', 'EPERM'].includes(err.code)) {
+        await new Promise(r => setTimeout(r, 200));
+        fs.unlinkSync(filePath);
+      } else {
+        throw err;
+      }
+    }
+  }
+
+  /** Traduz códigos de erro do SO para mensagens em português. */
+  private describeError(err: unknown): string {
+    if (!(err instanceof Error)) { return String(err); }
+    const e = err as NodeJS.ErrnoException;
+    switch (e.code) {
+      case 'EACCES':    return 'sem permissão de acesso';
+      case 'EPERM':     return 'operação não permitida (arquivo protegido pelo sistema)';
+      case 'EBUSY':     return 'em uso pelo sistema';
+      case 'ENOTEMPTY': return 'diretório não está vazio';
+      case 'ENOENT':    return 'arquivo não encontrado';
+      default:          return e.message;
+    }
   }
 
   async getTotalCacheSize(): Promise<number> {
