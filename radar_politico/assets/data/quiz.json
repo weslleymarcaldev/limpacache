@@ -1,0 +1,1869 @@
+{
+ "versao": 1,
+ "quizzes": [
+  {
+   "id": "Como uma lei é criada",
+   "titulo": "Como uma lei é criada"
+  },
+  {
+   "id": "Constituição Federal",
+   "titulo": "Constituição Federal"
+  },
+  {
+   "id": "Direitos e deveres",
+   "titulo": "Direitos e deveres"
+  },
+  {
+   "id": "Eleições e sistema eleitoral",
+   "titulo": "Eleições e sistema eleitoral"
+  },
+  {
+   "id": "Funções dos cargos",
+   "titulo": "Funções dos cargos"
+  },
+  {
+   "id": "História política do Brasil",
+   "titulo": "História política do Brasil"
+  },
+  {
+   "id": "Orçamento e impostos",
+   "titulo": "Orçamento e impostos"
+  },
+  {
+   "id": "Três Poderes",
+   "titulo": "Três Poderes"
+  }
+ ],
+ "perguntas": [
+  {
+   "id": "q001",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a duração do mandato do Presidente da República?",
+   "alternativas": [
+    "5 anos",
+    "8 anos",
+    "6 anos",
+    "4 anos"
+   ],
+   "correta": 3,
+   "explicacao": "O mandato presidencial é de quatro anos, com início em 5 de janeiro do ano seguinte à eleição (regra da EC 111/2021, aplicada a partir de 2027).",
+   "fonte": "Constituição Federal de 1988, art. 82"
+  },
+  {
+   "id": "q002",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a duração do mandato de um senador?",
+   "alternativas": [
+    "6 anos",
+    "4 anos",
+    "10 anos",
+    "8 anos"
+   ],
+   "correta": 3,
+   "explicacao": "Senadores têm mandato de oito anos; a renovação do Senado ocorre a cada quatro anos, alternadamente por um terço e dois terços.",
+   "fonte": "Constituição Federal de 1988, art. 46, §1º"
+  },
+  {
+   "id": "q003",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a duração do mandato de um deputado federal?",
+   "alternativas": [
+    "4 anos",
+    "2 anos",
+    "6 anos",
+    "8 anos"
+   ],
+   "correta": 0,
+   "explicacao": "Cada legislatura da Câmara dura quatro anos.",
+   "fonte": "Constituição Federal de 1988, art. 44, parágrafo único"
+  },
+  {
+   "id": "q004",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a idade mínima para se candidatar a Presidente da República?",
+   "alternativas": [
+    "18 anos",
+    "30 anos",
+    "35 anos",
+    "21 anos"
+   ],
+   "correta": 2,
+   "explicacao": "A Constituição exige 35 anos para Presidente, Vice-Presidente e Senador.",
+   "fonte": "Constituição Federal de 1988, art. 14, §3º, VI, a"
+  },
+  {
+   "id": "q005",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Para quem o voto é obrigatório no Brasil?",
+   "alternativas": [
+    "Alfabetizados entre 18 e 70 anos",
+    "Somente quem trabalha formalmente",
+    "Todos os maiores de 16 anos",
+    "Apenas maiores de 21 anos"
+   ],
+   "correta": 0,
+   "explicacao": "O alistamento e o voto são obrigatórios para maiores de 18 anos e facultativos para analfabetos, maiores de 70 e jovens de 16 e 17 anos.",
+   "fonte": "Constituição Federal de 1988, art. 14, §1º"
+  },
+  {
+   "id": "q006",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Para quem o voto é facultativo?",
+   "alternativas": [
+    "Servidores públicos",
+    "Pessoas com ensino superior",
+    "Moradores de zona rural",
+    "Jovens de 16 e 17 anos, maiores de 70 anos e analfabetos"
+   ],
+   "correta": 3,
+   "explicacao": "Esses três grupos podem votar, mas não são obrigados.",
+   "fonte": "Constituição Federal de 1988, art. 14, §1º, II"
+  },
+  {
+   "id": "q007",
+   "nivel": "facil",
+   "tema": "Três Poderes",
+   "pergunta": "Quais são os três Poderes da União?",
+   "alternativas": [
+    "Federal, Estadual e Municipal",
+    "Legislativo, Ministério Público e Executivo",
+    "Legislativo, Executivo e Judiciário",
+    "Executivo, Militar e Judiciário"
+   ],
+   "correta": 2,
+   "explicacao": "Os Poderes são independentes e harmônicos entre si.",
+   "fonte": "Constituição Federal de 1988, art. 2º"
+  },
+  {
+   "id": "q008",
+   "nivel": "facil",
+   "tema": "Três Poderes",
+   "pergunta": "O Congresso Nacional é formado por quais Casas?",
+   "alternativas": [
+    "Câmara dos Deputados e Assembleias Legislativas",
+    "Senado e Supremo Tribunal Federal",
+    "Câmara Municipal e Senado",
+    "Câmara dos Deputados e Senado Federal"
+   ],
+   "correta": 3,
+   "explicacao": "O Poder Legislativo federal é bicameral.",
+   "fonte": "Constituição Federal de 1988, art. 44"
+  },
+  {
+   "id": "q009",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Quantos senadores cada estado e o Distrito Federal elegem?",
+   "alternativas": [
+    "3",
+    "4",
+    "2",
+    "Varia conforme a população"
+   ],
+   "correta": 0,
+   "explicacao": "Cada unidade da federação elege três senadores, independentemente da população.",
+   "fonte": "Constituição Federal de 1988, art. 46, §1º"
+  },
+  {
+   "id": "q010",
+   "nivel": "facil",
+   "tema": "Constituição Federal",
+   "pergunta": "Em que ano foi promulgada a Constituição Federal em vigor?",
+   "alternativas": [
+    "1988",
+    "1967",
+    "1985",
+    "1946"
+   ],
+   "correta": 0,
+   "explicacao": "A Constituição foi promulgada em 5 de outubro de 1988.",
+   "fonte": "Constituição Federal de 1988"
+  },
+  {
+   "id": "q011",
+   "nivel": "facil",
+   "tema": "História política do Brasil",
+   "pergunta": "Qual cidade é a capital federal desde 1960?",
+   "alternativas": [
+    "São Paulo",
+    "Brasília",
+    "Salvador",
+    "Rio de Janeiro"
+   ],
+   "correta": 1,
+   "explicacao": "Brasília foi inaugurada em 21 de abril de 1960; antes, a capital era o Rio de Janeiro.",
+   "fonte": "IBGE / Presidência da República"
+  },
+  {
+   "id": "q012",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Qual órgão organiza e fiscaliza as eleições no Brasil?",
+   "alternativas": [
+    "Ministério da Justiça",
+    "Justiça Eleitoral",
+    "Congresso Nacional",
+    "Polícia Federal"
+   ],
+   "correta": 1,
+   "explicacao": "A Justiça Eleitoral, com o TSE no topo, organiza, fiscaliza e julga questões eleitorais.",
+   "fonte": "Constituição Federal de 1988, arts. 118 a 121"
+  },
+  {
+   "id": "q013",
+   "nivel": "facil",
+   "tema": "Três Poderes",
+   "pergunta": "Qual é uma função típica do Poder Legislativo?",
+   "alternativas": [
+    "Comandar as Forças Armadas",
+    "Julgar crimes comuns",
+    "Executar obras públicas",
+    "Elaborar leis e fiscalizar o Executivo"
+   ],
+   "correta": 3,
+   "explicacao": "Legislar e fiscalizar são as funções típicas do Legislativo.",
+   "fonte": "Constituição Federal de 1988, arts. 48 e 49"
+  },
+  {
+   "id": "q014",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "O prefeito chefia o Poder Executivo de qual esfera?",
+   "alternativas": [
+    "Federal",
+    "Estadual",
+    "Municipal",
+    "Distrital e federal"
+   ],
+   "correta": 2,
+   "explicacao": "O prefeito é o chefe do Executivo municipal.",
+   "fonte": "Constituição Federal de 1988, art. 29"
+  },
+  {
+   "id": "q015",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Onde atuam os vereadores?",
+   "alternativas": [
+    "Na Câmara dos Deputados",
+    "No Tribunal de Contas",
+    "Na Assembleia Legislativa",
+    "Na Câmara Municipal"
+   ],
+   "correta": 3,
+   "explicacao": "Vereadores compõem o Legislativo municipal.",
+   "fonte": "Constituição Federal de 1988, art. 29"
+  },
+  {
+   "id": "q016",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Onde atuam os deputados estaduais?",
+   "alternativas": [
+    "Na Câmara dos Deputados",
+    "Na Assembleia Legislativa",
+    "No Senado Federal",
+    "Na Câmara Municipal"
+   ],
+   "correta": 1,
+   "explicacao": "Assembleias Legislativas são o Legislativo dos estados.",
+   "fonte": "Constituição Federal de 1988, art. 27"
+  },
+  {
+   "id": "q017",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Quem chefia o Poder Executivo de um estado?",
+   "alternativas": [
+    "O senador mais votado",
+    "O desembargador-presidente do TJ",
+    "O presidente da Assembleia",
+    "O governador"
+   ],
+   "correta": 3,
+   "explicacao": "O governador é eleito para chefiar o Executivo estadual.",
+   "fonte": "Constituição Federal de 1988, art. 28"
+  },
+  {
+   "id": "q018",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Quem substitui o Presidente da República em caso de impedimento?",
+   "alternativas": [
+    "O Ministro da Casa Civil",
+    "O Vice-Presidente",
+    "O Presidente do STF",
+    "O Presidente do Senado"
+   ],
+   "correta": 1,
+   "explicacao": "O Vice substitui o Presidente; na falta de ambos, são chamados, em ordem, os presidentes da Câmara, do Senado e do STF.",
+   "fonte": "Constituição Federal de 1988, arts. 79 e 80"
+  },
+  {
+   "id": "q019",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Na legislatura 2023–2027, quantos deputados federais compõem a Câmara?",
+   "alternativas": [
+    "81",
+    "300",
+    "594",
+    "513"
+   ],
+   "correta": 3,
+   "explicacao": "A Câmara tem 513 deputados nesta legislatura; o número por estado é proporcional à população, com mínimo de 8 e máximo de 70.",
+   "fonte": "Constituição Federal de 1988, art. 45; LC 78/1993"
+  },
+  {
+   "id": "q020",
+   "nivel": "facil",
+   "tema": "Funções dos cargos",
+   "pergunta": "Quantos senadores compõem o Senado Federal?",
+   "alternativas": [
+    "54",
+    "513",
+    "81",
+    "27"
+   ],
+   "correta": 2,
+   "explicacao": "São 3 senadores para cada um dos 26 estados e o Distrito Federal: 27 × 3 = 81.",
+   "fonte": "Constituição Federal de 1988, art. 46"
+  },
+  {
+   "id": "q021",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "A partir de que idade é possível votar no Brasil?",
+   "alternativas": [
+    "18 anos",
+    "16 anos",
+    "21 anos",
+    "14 anos"
+   ],
+   "correta": 1,
+   "explicacao": "O voto é facultativo aos 16 e 17 anos e obrigatório a partir dos 18.",
+   "fonte": "Constituição Federal de 1988, art. 14, §1º"
+  },
+  {
+   "id": "q022",
+   "nivel": "facil",
+   "tema": "História política do Brasil",
+   "pergunta": "Em que ano ocorreu a primeira eleição direta para Presidente após o regime militar?",
+   "alternativas": [
+    "1994",
+    "1989",
+    "1985",
+    "1986"
+   ],
+   "correta": 1,
+   "explicacao": "A eleição de 1989 foi a primeira eleição presidencial direta desde 1960.",
+   "fonte": "TSE – Histórico das eleições"
+  },
+  {
+   "id": "q023",
+   "nivel": "facil",
+   "tema": "História política do Brasil",
+   "pergunta": "Em que ano foi proclamada a República no Brasil?",
+   "alternativas": [
+    "1889",
+    "1891",
+    "1822",
+    "1888"
+   ],
+   "correta": 0,
+   "explicacao": "A República foi proclamada em 15 de novembro de 1889.",
+   "fonte": "Arquivo Nacional"
+  },
+  {
+   "id": "q024",
+   "nivel": "facil",
+   "tema": "História política do Brasil",
+   "pergunta": "Em que ano o Brasil declarou sua independência de Portugal?",
+   "alternativas": [
+    "1815",
+    "1822",
+    "1889",
+    "1808"
+   ],
+   "correta": 1,
+   "explicacao": "A independência foi proclamada em 7 de setembro de 1822.",
+   "fonte": "Arquivo Nacional"
+  },
+  {
+   "id": "q025",
+   "nivel": "facil",
+   "tema": "Três Poderes",
+   "pergunta": "Quantos ministros compõem o Supremo Tribunal Federal?",
+   "alternativas": [
+    "7",
+    "15",
+    "11",
+    "9"
+   ],
+   "correta": 2,
+   "explicacao": "O STF é composto por onze ministros.",
+   "fonte": "Constituição Federal de 1988, art. 101"
+  },
+  {
+   "id": "q026",
+   "nivel": "facil",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual documento comprova o alistamento eleitoral do cidadão?",
+   "alternativas": [
+    "CPF",
+    "Carteira de trabalho",
+    "Título de eleitor",
+    "Certificado de reservista"
+   ],
+   "correta": 2,
+   "explicacao": "O título de eleitor (físico ou digital, e-Título) comprova a inscrição na Justiça Eleitoral.",
+   "fonte": "TSE"
+  },
+  {
+   "id": "q027",
+   "nivel": "facil",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Os cidadãos podem apresentar projetos de lei ao Congresso?",
+   "alternativas": [
+    "Sim, por iniciativa popular, com um número mínimo de assinaturas",
+    "Sim, qualquer cidadão sozinho",
+    "Apenas por meio do STF",
+    "Não, apenas parlamentares podem"
+   ],
+   "correta": 0,
+   "explicacao": "A iniciativa popular exige assinaturas de pelo menos 1% do eleitorado nacional, distribuídas por ao menos cinco estados.",
+   "fonte": "Constituição Federal de 1988, art. 61, §2º"
+  },
+  {
+   "id": "q028",
+   "nivel": "facil",
+   "tema": "Constituição Federal",
+   "pergunta": "O que é a Constituição Federal?",
+   "alternativas": [
+    "A lei fundamental e de maior hierarquia do país",
+    "Um decreto presidencial",
+    "Um regimento do Congresso",
+    "Um tratado internacional"
+   ],
+   "correta": 0,
+   "explicacao": "Todas as demais normas devem ser compatíveis com a Constituição.",
+   "fonte": "Constituição Federal de 1988"
+  },
+  {
+   "id": "q029",
+   "nivel": "facil",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Quem sanciona ou veta os projetos de lei federal aprovados pelo Congresso?",
+   "alternativas": [
+    "O Presidente da República",
+    "O Vice-Presidente",
+    "O Presidente do Senado",
+    "O STF"
+   ],
+   "correta": 0,
+   "explicacao": "Após aprovação, o projeto vai à sanção ou veto presidencial.",
+   "fonte": "Constituição Federal de 1988, art. 66"
+  },
+  {
+   "id": "q030",
+   "nivel": "facil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual destes tributos é de competência municipal?",
+   "alternativas": [
+    "IPTU",
+    "Imposto de Renda",
+    "IPI",
+    "IPVA"
+   ],
+   "correta": 0,
+   "explicacao": "O Imposto Predial e Territorial Urbano é cobrado pelos municípios.",
+   "fonte": "Constituição Federal de 1988, art. 156"
+  },
+  {
+   "id": "q031",
+   "nivel": "facil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual destes tributos é de competência estadual?",
+   "alternativas": [
+    "Imposto de Renda",
+    "IPVA",
+    "IPTU",
+    "ISS"
+   ],
+   "correta": 1,
+   "explicacao": "O IPVA é estadual, assim como o ICMS e o ITCMD.",
+   "fonte": "Constituição Federal de 1988, art. 155"
+  },
+  {
+   "id": "q032",
+   "nivel": "facil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual destes tributos é de competência federal?",
+   "alternativas": [
+    "IPVA",
+    "IPTU",
+    "ISS",
+    "Imposto de Renda"
+   ],
+   "correta": 3,
+   "explicacao": "O Imposto de Renda é instituído pela União.",
+   "fonte": "Constituição Federal de 1988, art. 153"
+  },
+  {
+   "id": "q033",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "De quanto em quanto tempo ocorrem eleições gerais (presidente, governadores, senadores e deputados)?",
+   "alternativas": [
+    "A cada 5 anos",
+    "A cada 6 anos",
+    "A cada 4 anos",
+    "A cada 2 anos"
+   ],
+   "correta": 2,
+   "explicacao": "As eleições gerais ocorrem a cada quatro anos; as municipais, dois anos depois delas.",
+   "fonte": "TSE"
+  },
+  {
+   "id": "q034",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Nas eleições municipais, quem é eleito?",
+   "alternativas": [
+    "Prefeito e deputados federais",
+    "Prefeito, vice-prefeito e vereadores",
+    "Governador e deputados estaduais",
+    "Senadores e vereadores"
+   ],
+   "correta": 1,
+   "explicacao": "Eleições municipais escolhem os ocupantes do Executivo e do Legislativo municipais.",
+   "fonte": "Constituição Federal de 1988, art. 29"
+  },
+  {
+   "id": "q035",
+   "nivel": "facil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Em quais cargos pode haver segundo turno?",
+   "alternativas": [
+    "Presidente, governador e prefeito de municípios com mais de 200 mil eleitores",
+    "Vereador e deputado estadual",
+    "Todos os cargos eletivos",
+    "Senador e deputado federal"
+   ],
+   "correta": 0,
+   "explicacao": "Segundo turno ocorre nas eleições majoritárias para o Executivo quando ninguém obtém maioria absoluta dos votos válidos (nos municípios, apenas acima de 200 mil eleitores).",
+   "fonte": "Constituição Federal de 1988, arts. 29, II, e 77"
+  },
+  {
+   "id": "q036",
+   "nivel": "facil",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual destes é um direito social previsto na Constituição?",
+   "alternativas": [
+    "Porte de arma",
+    "Isenção de todos os impostos",
+    "Educação",
+    "Voto aos 14 anos"
+   ],
+   "correta": 2,
+   "explicacao": "O art. 6º lista, entre outros, educação, saúde, alimentação, trabalho, moradia, transporte, lazer e segurança.",
+   "fonte": "Constituição Federal de 1988, art. 6º"
+  },
+  {
+   "id": "q037",
+   "nivel": "facil",
+   "tema": "Direitos e deveres",
+   "pergunta": "O Sistema Único de Saúde (SUS) foi criado por qual norma?",
+   "alternativas": [
+    "Decreto de 1964",
+    "Constituição de 1946",
+    "Lei de Responsabilidade Fiscal",
+    "Constituição de 1988, regulamentada pela Lei 8.080/1990"
+   ],
+   "correta": 3,
+   "explicacao": "A CF/88 estabeleceu a saúde como direito de todos e dever do Estado; a Lei 8.080/1990 organizou o SUS.",
+   "fonte": "Constituição Federal de 1988, art. 196; Lei 8.080/1990"
+  },
+  {
+   "id": "q038",
+   "nivel": "facil",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual lei instituiu o Estatuto da Criança e do Adolescente (ECA)?",
+   "alternativas": [
+    "Lei 8.666/1993",
+    "Lei 8.069/1990",
+    "Lei 9.504/1997",
+    "Lei 12.527/2011"
+   ],
+   "correta": 1,
+   "explicacao": "O ECA foi sancionado em 13 de julho de 1990.",
+   "fonte": "Lei 8.069/1990"
+  },
+  {
+   "id": "q039",
+   "nivel": "facil",
+   "tema": "Três Poderes",
+   "pergunta": "Quem exerce o comando supremo das Forças Armadas?",
+   "alternativas": [
+    "O Presidente do Congresso",
+    "O Presidente da República",
+    "O Ministro da Defesa",
+    "O Comandante do Exército"
+   ],
+   "correta": 1,
+   "explicacao": "A Constituição atribui ao Presidente o comando supremo das Forças Armadas.",
+   "fonte": "Constituição Federal de 1988, arts. 84, XIII, e 142"
+  },
+  {
+   "id": "q040",
+   "nivel": "facil",
+   "tema": "História política do Brasil",
+   "pergunta": "Qual era a capital do Brasil antes de Brasília?",
+   "alternativas": [
+    "São Paulo",
+    "Belo Horizonte",
+    "Rio de Janeiro",
+    "Salvador"
+   ],
+   "correta": 2,
+   "explicacao": "O Rio de Janeiro foi capital de 1763 a 1960.",
+   "fonte": "IBGE"
+  },
+  {
+   "id": "q041",
+   "nivel": "facil",
+   "tema": "Constituição Federal",
+   "pergunta": "Quantos estados tem o Brasil, além do Distrito Federal?",
+   "alternativas": [
+    "27",
+    "24",
+    "26",
+    "25"
+   ],
+   "correta": 2,
+   "explicacao": "São 26 estados e o Distrito Federal, totalizando 27 unidades da federação.",
+   "fonte": "IBGE"
+  },
+  {
+   "id": "q042",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Para vencer a eleição presidencial no primeiro turno, o candidato precisa de:",
+   "alternativas": [
+    "Maioria simples dos votos totais",
+    "Maioria absoluta dos votos válidos",
+    "Mais votos em pelo menos 14 estados",
+    "Dois terços dos votos válidos"
+   ],
+   "correta": 1,
+   "explicacao": "Votos válidos excluem brancos e nulos. Se ninguém obtiver mais da metade deles, há segundo turno entre os dois mais votados.",
+   "fonte": "Constituição Federal de 1988, art. 77, §§2º e 3º"
+  },
+  {
+   "id": "q043",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Por qual sistema são eleitos os deputados federais?",
+   "alternativas": [
+    "Indireto, pelas Assembleias",
+    "Distrital puro",
+    "Majoritário",
+    "Proporcional"
+   ],
+   "correta": 3,
+   "explicacao": "No sistema proporcional, as vagas são distribuídas conforme a votação de partidos e federações.",
+   "fonte": "Constituição Federal de 1988, art. 45"
+  },
+  {
+   "id": "q044",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Por qual sistema são eleitos os senadores?",
+   "alternativas": [
+    "Por sorteio entre os mais votados",
+    "Proporcional",
+    "Majoritário",
+    "Indireto, pelo Congresso"
+   ],
+   "correta": 2,
+   "explicacao": "No Senado, é eleito quem recebe mais votos, independentemente do partido.",
+   "fonte": "Constituição Federal de 1988, art. 46"
+  },
+  {
+   "id": "q045",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Como se calcula o quociente eleitoral?",
+   "alternativas": [
+    "Divide-se o número de votos válidos pelo número de vagas",
+    "Soma-se os votos do candidato mais votado",
+    "Multiplica-se as vagas pelo número de partidos",
+    "Divide-se o número de eleitores pelo de candidatos"
+   ],
+   "correta": 0,
+   "explicacao": "O quociente eleitoral define quantos votos um partido precisa para conquistar uma vaga.",
+   "fonte": "Código Eleitoral (Lei 4.737/1965), art. 106"
+  },
+  {
+   "id": "q046",
+   "nivel": "medio",
+   "tema": "Três Poderes",
+   "pergunta": "Quem julga o Presidente da República por crime de responsabilidade?",
+   "alternativas": [
+    "A Câmara dos Deputados",
+    "O TSE",
+    "O Senado Federal",
+    "O STF"
+   ],
+   "correta": 2,
+   "explicacao": "A Câmara autoriza a abertura do processo e o Senado julga, sob a presidência do Presidente do STF.",
+   "fonte": "Constituição Federal de 1988, arts. 52, I, e 86"
+  },
+  {
+   "id": "q047",
+   "nivel": "medio",
+   "tema": "Três Poderes",
+   "pergunta": "Qual quórum da Câmara é necessário para autorizar processo contra o Presidente da República?",
+   "alternativas": [
+    "Dois terços dos deputados",
+    "Três quintos dos deputados",
+    "Maioria simples",
+    "Maioria absoluta"
+   ],
+   "correta": 0,
+   "explicacao": "São necessários 342 votos dos 513 deputados.",
+   "fonte": "Constituição Federal de 1988, arts. 51, I, e 86"
+  },
+  {
+   "id": "q048",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Qual é o quórum para aprovar uma Proposta de Emenda à Constituição (PEC)?",
+   "alternativas": [
+    "Maioria absoluta, em turno único",
+    "Dois terços apenas no Senado",
+    "Três quintos dos votos, em dois turnos, em cada Casa",
+    "Maioria simples, em turno único"
+   ],
+   "correta": 2,
+   "explicacao": "Na Câmara, 308 votos; no Senado, 49 votos, em cada um dos dois turnos.",
+   "fonte": "Constituição Federal de 1988, art. 60, §2º"
+  },
+  {
+   "id": "q049",
+   "nivel": "medio",
+   "tema": "Constituição Federal",
+   "pergunta": "Qual destes NÃO é cláusula pétrea da Constituição?",
+   "alternativas": [
+    "A separação dos Poderes",
+    "O voto direto, secreto, universal e periódico",
+    "O sistema presidencialista de governo",
+    "A forma federativa de Estado"
+   ],
+   "correta": 2,
+   "explicacao": "As cláusulas pétreas são: forma federativa, voto direto/secreto/universal/periódico, separação dos Poderes e direitos e garantias individuais.",
+   "fonte": "Constituição Federal de 1988, art. 60, §4º"
+  },
+  {
+   "id": "q050",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Qual é o prazo de vigência de uma Medida Provisória?",
+   "alternativas": [
+    "30 dias, sem prorrogação",
+    "90 dias, prorrogáveis por 90",
+    "60 dias, prorrogáveis por mais 60",
+    "1 ano"
+   ],
+   "correta": 2,
+   "explicacao": "Se não for convertida em lei nesse prazo, a MP perde a eficácia.",
+   "fonte": "Constituição Federal de 1988, art. 62, §§3º e 7º"
+  },
+  {
+   "id": "q051",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Quem pode editar Medidas Provisórias?",
+   "alternativas": [
+    "O Presidente da República",
+    "O STF",
+    "Qualquer ministro",
+    "O Presidente da Câmara"
+   ],
+   "correta": 0,
+   "explicacao": "MPs têm força de lei e devem tratar de casos de relevância e urgência.",
+   "fonte": "Constituição Federal de 1988, art. 62"
+  },
+  {
+   "id": "q052",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Quais são as três leis do ciclo orçamentário?",
+   "alternativas": [
+    "PPA, LDO e LOA",
+    "PPA, CTN e LOA",
+    "LRF, LDO e CLT",
+    "LDB, LDO e LRF"
+   ],
+   "correta": 0,
+   "explicacao": "Plano Plurianual, Lei de Diretrizes Orçamentárias e Lei Orçamentária Anual.",
+   "fonte": "Constituição Federal de 1988, art. 165"
+  },
+  {
+   "id": "q053",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual é a duração do Plano Plurianual (PPA)?",
+   "alternativas": [
+    "2 anos",
+    "1 ano",
+    "8 anos",
+    "4 anos"
+   ],
+   "correta": 3,
+   "explicacao": "O PPA vale do segundo ano de um mandato até o primeiro ano do mandato seguinte.",
+   "fonte": "Constituição Federal de 1988, art. 165, §1º; ADCT, art. 35"
+  },
+  {
+   "id": "q054",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Quem elabora o projeto da Lei Orçamentária Anual (LOA) da União?",
+   "alternativas": [
+    "O Poder Executivo",
+    "O Banco Central",
+    "O Tribunal de Contas da União",
+    "O Senado Federal"
+   ],
+   "correta": 0,
+   "explicacao": "O Executivo envia o projeto e o Congresso analisa, emenda e aprova.",
+   "fonte": "Constituição Federal de 1988, arts. 165 e 166"
+  },
+  {
+   "id": "q055",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Como o Congresso pode derrubar um veto presidencial?",
+   "alternativas": [
+    "Por decisão do STF",
+    "Por dois terços apenas do Senado",
+    "Pela maioria absoluta de deputados e senadores, em sessão conjunta",
+    "Por maioria simples na Câmara"
+   ],
+   "correta": 2,
+   "explicacao": "A derrubada exige 257 deputados e 41 senadores.",
+   "fonte": "Constituição Federal de 1988, art. 66, §4º"
+  },
+  {
+   "id": "q056",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Qual é o prazo para o Presidente sancionar ou vetar um projeto de lei?",
+   "alternativas": [
+    "5 dias corridos",
+    "30 dias corridos",
+    "15 dias úteis",
+    "60 dias úteis"
+   ],
+   "correta": 2,
+   "explicacao": "Se o Presidente não se manifestar nesse prazo, ocorre a sanção tácita.",
+   "fonte": "Constituição Federal de 1988, art. 66, §§1º e 3º"
+  },
+  {
+   "id": "q057",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual órgão auxilia o Congresso na fiscalização das contas da União?",
+   "alternativas": [
+    "Tribunal de Contas da União (TCU)",
+    "Controladoria-Geral da União (CGU)",
+    "Receita Federal",
+    "Banco Central"
+   ],
+   "correta": 0,
+   "explicacao": "O TCU é órgão auxiliar do Legislativo no controle externo.",
+   "fonte": "Constituição Federal de 1988, art. 71"
+  },
+  {
+   "id": "q058",
+   "nivel": "medio",
+   "tema": "Três Poderes",
+   "pergunta": "Como a Constituição define o Ministério Público?",
+   "alternativas": [
+    "Instituição permanente, essencial à função jurisdicional do Estado",
+    "Órgão subordinado ao Ministério da Justiça",
+    "Parte do Poder Judiciário",
+    "Órgão do Poder Legislativo"
+   ],
+   "correta": 0,
+   "explicacao": "O MP tem autonomia funcional e administrativa e defende a ordem jurídica e o regime democrático.",
+   "fonte": "Constituição Federal de 1988, art. 127"
+  },
+  {
+   "id": "q059",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual norma estabelece regras de responsabilidade na gestão fiscal?",
+   "alternativas": [
+    "Lei 8.666/1993",
+    "Lei Complementar 101/2000",
+    "Lei 9.504/1997",
+    "Emenda Constitucional 95/2016"
+   ],
+   "correta": 1,
+   "explicacao": "A Lei de Responsabilidade Fiscal estabelece limites para gastos com pessoal e endividamento.",
+   "fonte": "LC 101/2000"
+  },
+  {
+   "id": "q060",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Qual é a origem da Lei da Ficha Limpa (LC 135/2010)?",
+   "alternativas": [
+    "Projeto de iniciativa popular",
+    "Medida Provisória",
+    "Decisão do STF",
+    "Proposta do TSE"
+   ],
+   "correta": 0,
+   "explicacao": "O projeto foi apresentado com mais de 1,3 milhão de assinaturas.",
+   "fonte": "LC 135/2010; Câmara dos Deputados"
+  },
+  {
+   "id": "q061",
+   "nivel": "medio",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual lei regula o acesso a informações públicas?",
+   "alternativas": [
+    "Lei 12.527/2011",
+    "Lei 9.784/1999",
+    "Lei 8.112/1990",
+    "Lei 13.709/2018"
+   ],
+   "correta": 0,
+   "explicacao": "A Lei de Acesso à Informação garante a qualquer pessoa o direito de solicitar informações a órgãos públicos.",
+   "fonte": "Lei 12.527/2011"
+  },
+  {
+   "id": "q062",
+   "nivel": "medio",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a idade mínima para se candidatar a governador?",
+   "alternativas": [
+    "25 anos",
+    "35 anos",
+    "21 anos",
+    "30 anos"
+   ],
+   "correta": 3,
+   "explicacao": "A idade mínima é de 30 anos para governador e vice-governador.",
+   "fonte": "Constituição Federal de 1988, art. 14, §3º, VI, b"
+  },
+  {
+   "id": "q063",
+   "nivel": "medio",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a idade mínima para se candidatar a deputado federal?",
+   "alternativas": [
+    "18 anos",
+    "21 anos",
+    "25 anos",
+    "30 anos"
+   ],
+   "correta": 1,
+   "explicacao": "Deputados federais, estaduais, distritais, prefeitos e vice-prefeitos: 21 anos.",
+   "fonte": "Constituição Federal de 1988, art. 14, §3º, VI, c"
+  },
+  {
+   "id": "q064",
+   "nivel": "medio",
+   "tema": "Funções dos cargos",
+   "pergunta": "Qual é a idade mínima para se candidatar a vereador?",
+   "alternativas": [
+    "21 anos",
+    "16 anos",
+    "25 anos",
+    "18 anos"
+   ],
+   "correta": 3,
+   "explicacao": "Vereador é o único cargo com idade mínima de 18 anos.",
+   "fonte": "Constituição Federal de 1988, art. 14, §3º, VI, d"
+  },
+  {
+   "id": "q065",
+   "nivel": "medio",
+   "tema": "Constituição Federal",
+   "pergunta": "Qual emenda constitucional permitiu a reeleição para cargos do Executivo?",
+   "alternativas": [
+    "EC 45/2004",
+    "EC 16/1997",
+    "EC 1/1992",
+    "EC 95/2016"
+   ],
+   "correta": 1,
+   "explicacao": "A emenda permitiu uma única reeleição consecutiva para presidente, governadores e prefeitos.",
+   "fonte": "EC 16/1997"
+  },
+  {
+   "id": "q066",
+   "nivel": "medio",
+   "tema": "Três Poderes",
+   "pergunta": "Qual tribunal julga as Ações Diretas de Inconstitucionalidade (ADI) de leis federais?",
+   "alternativas": [
+    "Supremo Tribunal Federal",
+    "Tribunal de Contas da União",
+    "Tribunal Superior Eleitoral",
+    "Superior Tribunal de Justiça"
+   ],
+   "correta": 0,
+   "explicacao": "Cabe ao STF a guarda da Constituição.",
+   "fonte": "Constituição Federal de 1988, art. 102, I, a"
+  },
+  {
+   "id": "q067",
+   "nivel": "medio",
+   "tema": "Direitos e deveres",
+   "pergunta": "O habeas corpus protege qual direito?",
+   "alternativas": [
+    "Liberdade de locomoção",
+    "Acesso a dados pessoais",
+    "Direito de propriedade",
+    "Direito de voto"
+   ],
+   "correta": 0,
+   "explicacao": "É cabível quando alguém sofre ou se acha ameaçado de sofrer violência ou coação em sua liberdade de locomoção por ilegalidade ou abuso de poder.",
+   "fonte": "Constituição Federal de 1988, art. 5º, LXVIII"
+  },
+  {
+   "id": "q068",
+   "nivel": "medio",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual instrumento garante o acesso e a retificação de informações pessoais em bancos de dados públicos?",
+   "alternativas": [
+    "Mandado de injunção",
+    "Habeas data",
+    "Ação popular",
+    "Habeas corpus"
+   ],
+   "correta": 1,
+   "explicacao": "O habeas data assegura o conhecimento e a retificação de dados relativos à pessoa.",
+   "fonte": "Constituição Federal de 1988, art. 5º, LXXII"
+  },
+  {
+   "id": "q069",
+   "nivel": "medio",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual instrumento permite a qualquer cidadão anular ato lesivo ao patrimônio público?",
+   "alternativas": [
+    "Habeas data",
+    "Ação popular",
+    "Mandado de segurança coletivo",
+    "Ação direta de inconstitucionalidade"
+   ],
+   "correta": 1,
+   "explicacao": "A ação popular pode ser proposta por qualquer cidadão, em regra sem custas.",
+   "fonte": "Constituição Federal de 1988, art. 5º, LXXIII"
+  },
+  {
+   "id": "q070",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Desde quando doações de empresas para campanhas eleitorais são proibidas?",
+   "alternativas": [
+    "Nunca foram proibidas",
+    "Desde 1988, pela Constituição",
+    "Desde 2015, por decisão do STF",
+    "Desde 2002, por lei"
+   ],
+   "correta": 2,
+   "explicacao": "O STF julgou inconstitucional o financiamento empresarial na ADI 4650.",
+   "fonte": "STF – ADI 4650 (2015)"
+  },
+  {
+   "id": "q071",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "A partir de quando as coligações em eleições proporcionais foram proibidas?",
+   "alternativas": [
+    "Desde 1988",
+    "A partir das eleições de 2020",
+    "A partir de 2014",
+    "Nunca foram proibidas"
+   ],
+   "correta": 1,
+   "explicacao": "A EC 97/2017 vedou coligações nas eleições proporcionais a partir de 2020.",
+   "fonte": "EC 97/2017"
+  },
+  {
+   "id": "q072",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "O que é uma federação partidária?",
+   "alternativas": [
+    "Coligação válida só na eleição",
+    "Bloco de partidos no Senado",
+    "União de partidos que atuam como um só por, no mínimo, quatro anos",
+    "Fusão definitiva de partidos"
+   ],
+   "correta": 2,
+   "explicacao": "Diferentemente das coligações, as federações devem durar ao menos quatro anos.",
+   "fonte": "Lei 14.208/2021"
+  },
+  {
+   "id": "q073",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Qual é o quórum para aprovar uma lei complementar?",
+   "alternativas": [
+    "Maioria simples",
+    "Dois terços",
+    "Maioria absoluta",
+    "Três quintos"
+   ],
+   "correta": 2,
+   "explicacao": "Leis complementares exigem maioria absoluta dos membros de cada Casa.",
+   "fonte": "Constituição Federal de 1988, art. 69"
+  },
+  {
+   "id": "q074",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Qual é o quórum para aprovar uma lei ordinária?",
+   "alternativas": [
+    "Três quintos",
+    "Maioria absoluta dos membros",
+    "Unanimidade",
+    "Maioria simples, presente a maioria absoluta dos membros"
+   ],
+   "correta": 3,
+   "explicacao": "É a regra geral de deliberação das Casas.",
+   "fonte": "Constituição Federal de 1988, art. 47"
+  },
+  {
+   "id": "q075",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Qual a diferença entre plebiscito e referendo?",
+   "alternativas": [
+    "O referendo é sempre municipal",
+    "O plebiscito é convocado antes do ato; o referendo, depois",
+    "O plebiscito é obrigatório e o referendo, facultativo",
+    "Não há diferença"
+   ],
+   "correta": 1,
+   "explicacao": "No plebiscito a população decide previamente; no referendo, ratifica ou rejeita um ato já aprovado.",
+   "fonte": "Lei 9.709/1998, art. 2º"
+  },
+  {
+   "id": "q076",
+   "nivel": "medio",
+   "tema": "História política do Brasil",
+   "pergunta": "O plebiscito de 1993 decidiu sobre:",
+   "alternativas": [
+    "Forma e sistema de governo",
+    "O voto obrigatório",
+    "A mudança da capital",
+    "A comercialização de armas"
+   ],
+   "correta": 0,
+   "explicacao": "A população escolheu a república e o presidencialismo.",
+   "fonte": "Constituição Federal de 1988, ADCT, art. 2º"
+  },
+  {
+   "id": "q077",
+   "nivel": "medio",
+   "tema": "História política do Brasil",
+   "pergunta": "Sobre o que foi o referendo de 2005?",
+   "alternativas": [
+    "Voto facultativo",
+    "Forma de governo",
+    "Proibição da comercialização de armas de fogo e munição",
+    "Reeleição"
+   ],
+   "correta": 2,
+   "explicacao": "A maioria votou contra a proibição.",
+   "fonte": "TSE – Referendo 2005"
+  },
+  {
+   "id": "q078",
+   "nivel": "medio",
+   "tema": "Funções dos cargos",
+   "pergunta": "O que faz um senador?",
+   "alternativas": [
+    "Administra o orçamento do estado",
+    "Chefia o Executivo estadual",
+    "Representa o estado no Legislativo federal, vota leis e aprova autoridades",
+    "Julga processos estaduais"
+   ],
+   "correta": 2,
+   "explicacao": "O Senado também processa e julga autoridades em crimes de responsabilidade e aprova nomes como ministros do STF.",
+   "fonte": "Constituição Federal de 1988, art. 52"
+  },
+  {
+   "id": "q079",
+   "nivel": "medio",
+   "tema": "Funções dos cargos",
+   "pergunta": "O que faz um deputado federal?",
+   "alternativas": [
+    "Nomeia ministros do STF",
+    "Executa obras federais",
+    "Chefia ministérios",
+    "Representa a população, vota leis e fiscaliza o Executivo federal"
+   ],
+   "correta": 3,
+   "explicacao": "Deputados também podem autorizar processo contra o Presidente e propor emendas ao orçamento.",
+   "fonte": "Constituição Federal de 1988, arts. 45, 48 e 51"
+  },
+  {
+   "id": "q080",
+   "nivel": "medio",
+   "tema": "Como uma lei é criada",
+   "pergunta": "Projetos de lei de iniciativa do Presidente começam a tramitar em qual Casa?",
+   "alternativas": [
+    "Câmara dos Deputados",
+    "Em sessão conjunta",
+    "Na Casa escolhida pelo Presidente",
+    "Senado Federal"
+   ],
+   "correta": 0,
+   "explicacao": "Projetos do Presidente, do STF e dos tribunais superiores começam na Câmara.",
+   "fonte": "Constituição Federal de 1988, art. 64"
+  },
+  {
+   "id": "q081",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "O que a reforma tributária (EC 132/2023) criou para substituir tributos sobre consumo?",
+   "alternativas": [
+    "Imposto sobre grandes fortunas",
+    "IPVA e ITBI",
+    "IBS, CBS e Imposto Seletivo",
+    "CPMF e IOF"
+   ],
+   "correta": 2,
+   "explicacao": "IBS (estados e municípios) e CBS (União) formam um IVA dual; o Imposto Seletivo incide sobre bens prejudiciais à saúde ou ao meio ambiente.",
+   "fonte": "EC 132/2023"
+  },
+  {
+   "id": "q082",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Quando termina a transição da reforma tributária sobre consumo?",
+   "alternativas": [
+    "2026",
+    "2027",
+    "2033",
+    "2040"
+   ],
+   "correta": 2,
+   "explicacao": "A transição começou em 2026 e ICMS e ISS deixam de existir em 2033.",
+   "fonte": "EC 132/2023; LC 214/2025"
+  },
+  {
+   "id": "q083",
+   "nivel": "medio",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Qual é o percentual mínimo de candidaturas de cada sexo exigido nas eleições proporcionais?",
+   "alternativas": [
+    "50%",
+    "10%",
+    "30%",
+    "20%"
+   ],
+   "correta": 2,
+   "explicacao": "Partidos devem preencher no mínimo 30% e no máximo 70% para candidaturas de cada sexo.",
+   "fonte": "Lei 9.504/1997, art. 10, §3º"
+  },
+  {
+   "id": "q084",
+   "nivel": "dificil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "A partir de qual data é permitida a propaganda eleitoral?",
+   "alternativas": [
+    "1º de janeiro do ano da eleição",
+    "1º de julho do ano da eleição",
+    "16 de agosto do ano da eleição",
+    "30 dias antes da eleição"
+   ],
+   "correta": 2,
+   "explicacao": "A propaganda eleitoral é permitida após 15 de agosto.",
+   "fonte": "Lei 9.504/1997, art. 36"
+  },
+  {
+   "id": "q085",
+   "nivel": "dificil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Qual é o prazo mínimo de filiação partidária para disputar uma eleição?",
+   "alternativas": [
+    "6 meses antes do pleito",
+    "1 ano",
+    "1 mês",
+    "2 anos"
+   ],
+   "correta": 0,
+   "explicacao": "O candidato deve ter filiação deferida pelo partido no mínimo seis meses antes da eleição.",
+   "fonte": "Lei 9.504/1997, art. 9º"
+  },
+  {
+   "id": "q086",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Qual apelido Ulysses Guimarães deu à Constituição de 1988?",
+   "alternativas": [
+    "Constituição Popular",
+    "Carta da Liberdade",
+    "Constituição Republicana",
+    "Constituição Cidadã"
+   ],
+   "correta": 3,
+   "explicacao": "O apelido foi dado no discurso de promulgação, em 5 de outubro de 1988.",
+   "fonte": "Câmara dos Deputados – Acervo histórico"
+  },
+  {
+   "id": "q087",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Quantas Constituições o Brasil já teve, contando a atual?",
+   "alternativas": [
+    "9",
+    "6",
+    "7",
+    "5"
+   ],
+   "correta": 2,
+   "explicacao": "1824, 1891, 1934, 1937, 1946, 1967 e 1988. Há quem conte a EC 1/1969 como uma oitava.",
+   "fonte": "Senado Federal – Constituições brasileiras"
+  },
+  {
+   "id": "q088",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Em que ano foi editado o Ato Institucional nº 5 (AI-5)?",
+   "alternativas": [
+    "1968",
+    "1965",
+    "1974",
+    "1964"
+   ],
+   "correta": 0,
+   "explicacao": "O AI-5 foi editado em 13 de dezembro de 1968 e revogado em 1978.",
+   "fonte": "Arquivo Nacional"
+  },
+  {
+   "id": "q089",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "O que propunha a Emenda Dante de Oliveira, rejeitada em 1984?",
+   "alternativas": [
+    "Volta da monarquia",
+    "Eleições diretas para Presidente",
+    "Parlamentarismo",
+    "Fim do voto obrigatório"
+   ],
+   "correta": 1,
+   "explicacao": "Foi a bandeira do movimento Diretas Já; não alcançou o quórum necessário na Câmara.",
+   "fonte": "Câmara dos Deputados"
+  },
+  {
+   "id": "q090",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Quem foi o primeiro presidente civil a tomar posse após o regime militar?",
+   "alternativas": [
+    "José Sarney",
+    "Tancredo Neves",
+    "Ulysses Guimarães",
+    "Fernando Collor"
+   ],
+   "correta": 0,
+   "explicacao": "Tancredo Neves foi eleito indiretamente em 1985, mas adoeceu e morreu antes da posse; o vice José Sarney assumiu.",
+   "fonte": "Biblioteca da Presidência da República"
+  },
+  {
+   "id": "q091",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Qual presidente teve processo de impeachment instaurado em 1992?",
+   "alternativas": [
+    "José Sarney",
+    "Itamar Franco",
+    "Fernando Collor",
+    "Fernando Henrique Cardoso"
+   ],
+   "correta": 2,
+   "explicacao": "Collor renunciou antes da conclusão do julgamento; o Senado prosseguiu e o tornou inelegível por oito anos.",
+   "fonte": "Senado Federal"
+  },
+  {
+   "id": "q092",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Em que ano o Senado concluiu o processo de impeachment de Dilma Rousseff?",
+   "alternativas": [
+    "2015",
+    "2016",
+    "2014",
+    "2017"
+   ],
+   "correta": 1,
+   "explicacao": "O julgamento foi concluído em 31 de agosto de 2016.",
+   "fonte": "Senado Federal"
+  },
+  {
+   "id": "q093",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Quando o real passou a circular como moeda?",
+   "alternativas": [
+    "Janeiro de 1999",
+    "Março de 1993",
+    "Julho de 1994",
+    "Janeiro de 1990"
+   ],
+   "correta": 2,
+   "explicacao": "O Plano Real passou pela URV em 1994 e a nova moeda entrou em circulação em 1º de julho de 1994.",
+   "fonte": "Banco Central do Brasil"
+  },
+  {
+   "id": "q094",
+   "nivel": "dificil",
+   "tema": "História política do Brasil",
+   "pergunta": "Qual norma garantiu pela primeira vez o voto feminino no Brasil?",
+   "alternativas": [
+    "Código Eleitoral de 1932",
+    "Constituição de 1946",
+    "Constituição de 1891",
+    "Constituição de 1988"
+   ],
+   "correta": 0,
+   "explicacao": "O Decreto 21.076/1932 garantiu o voto às mulheres; a Constituição de 1934 confirmou.",
+   "fonte": "TSE"
+  },
+  {
+   "id": "q095",
+   "nivel": "dificil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Em que ano a urna eletrônica foi usada pela primeira vez em eleições oficiais?",
+   "alternativas": [
+    "1989",
+    "1994",
+    "1996",
+    "2000"
+   ],
+   "correta": 2,
+   "explicacao": "Foi usada em eleições municipais de 1996 em parte dos municípios; em 2000, em todo o país.",
+   "fonte": "TSE"
+  },
+  {
+   "id": "q096",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Qual destes NÃO pode propor Ação Direta de Inconstitucionalidade no STF?",
+   "alternativas": [
+    "Conselho Federal da OAB",
+    "Partido político com representação no Congresso",
+    "Procurador-Geral da República",
+    "Qualquer cidadão, individualmente"
+   ],
+   "correta": 3,
+   "explicacao": "O rol de legitimados é taxativo.",
+   "fonte": "Constituição Federal de 1988, art. 103"
+  },
+  {
+   "id": "q097",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Quantas assinaturas são necessárias para criar uma CPI?",
+   "alternativas": [
+    "Dois terços",
+    "Um quinto",
+    "Maioria absoluta",
+    "Um terço dos membros da Casa"
+   ],
+   "correta": 3,
+   "explicacao": "Além das assinaturas, a CPI precisa de fato determinado e prazo certo.",
+   "fonte": "Constituição Federal de 1988, art. 58, §3º"
+  },
+  {
+   "id": "q098",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Qual destas ações uma CPI NÃO pode realizar?",
+   "alternativas": [
+    "Convocar testemunhas",
+    "Requisitar documentos",
+    "Aplicar penas e condenar investigados",
+    "Quebrar sigilo bancário com decisão fundamentada"
+   ],
+   "correta": 2,
+   "explicacao": "As conclusões são encaminhadas ao Ministério Público, que decide sobre a responsabilização.",
+   "fonte": "Constituição Federal de 1988, art. 58, §3º"
+  },
+  {
+   "id": "q099",
+   "nivel": "dificil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual emenda tornou obrigatória a execução das emendas parlamentares individuais?",
+   "alternativas": [
+    "EC 109/2021",
+    "EC 86/2015",
+    "EC 132/2023",
+    "EC 95/2016"
+   ],
+   "correta": 1,
+   "explicacao": "Conhecida como 'orçamento impositivo'; o percentual foi alterado por emendas posteriores.",
+   "fonte": "EC 86/2015"
+  },
+  {
+   "id": "q100",
+   "nivel": "dificil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual regra fiscal substituiu o teto de gastos da EC 95/2016?",
+   "alternativas": [
+    "Lei de Responsabilidade Fiscal",
+    "Regra de Ouro",
+    "Regime Fiscal Sustentável (LC 200/2023)",
+    "Lei 4.320/1964"
+   ],
+   "correta": 2,
+   "explicacao": "A LC 200/2023, conhecida como arcabouço fiscal, vincula o crescimento da despesa ao da receita, com limites.",
+   "fonte": "LC 200/2023"
+  },
+  {
+   "id": "q101",
+   "nivel": "dificil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Como é composto o Tribunal Superior Eleitoral?",
+   "alternativas": [
+    "5 ministros eleitos pelo Congresso",
+    "7 ministros: 3 do STF, 2 do STJ e 2 juristas",
+    "11 ministros do STF",
+    "9 ministros indicados por partidos"
+   ],
+   "correta": 1,
+   "explicacao": "Os juristas são nomeados pelo Presidente a partir de lista do STF.",
+   "fonte": "Constituição Federal de 1988, art. 119"
+  },
+  {
+   "id": "q102",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Qual é o número mínimo de ministros do Superior Tribunal de Justiça?",
+   "alternativas": [
+    "27",
+    "15",
+    "11",
+    "33"
+   ],
+   "correta": 3,
+   "explicacao": "O STJ uniformiza a interpretação da legislação federal.",
+   "fonte": "Constituição Federal de 1988, art. 104"
+  },
+  {
+   "id": "q103",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Até que idade um ministro do STF pode permanecer no cargo?",
+   "alternativas": [
+    "65 anos",
+    "Não há limite",
+    "75 anos",
+    "70 anos"
+   ],
+   "correta": 2,
+   "explicacao": "A aposentadoria compulsória passou de 70 para 75 anos com a EC 88/2015.",
+   "fonte": "Constituição Federal de 1988, art. 40, §1º, II; EC 88/2015"
+  },
+  {
+   "id": "q104",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Como são escolhidos os ministros do STF?",
+   "alternativas": [
+    "Indicados pela OAB e aprovados pela Câmara",
+    "Eleitos pelo voto popular",
+    "Escolhidos por concurso público",
+    "Nomeados pelo Presidente após aprovação por maioria absoluta do Senado"
+   ],
+   "correta": 3,
+   "explicacao": "O candidato passa por sabatina na CCJ do Senado e votação em plenário.",
+   "fonte": "Constituição Federal de 1988, art. 101, parágrafo único"
+  },
+  {
+   "id": "q105",
+   "nivel": "dificil",
+   "tema": "Constituição Federal",
+   "pergunta": "Qual medida excepcional exige autorização PRÉVIA do Congresso Nacional?",
+   "alternativas": [
+    "Estado de defesa",
+    "Estado de sítio",
+    "Intervenção federal",
+    "Edição de Medida Provisória"
+   ],
+   "correta": 1,
+   "explicacao": "No estado de defesa, o decreto é submetido ao Congresso em até 24 horas, depois de editado.",
+   "fonte": "Constituição Federal de 1988, arts. 136 e 137"
+  },
+  {
+   "id": "q106",
+   "nivel": "dificil",
+   "tema": "Constituição Federal",
+   "pergunta": "Em 2018, houve intervenção federal na segurança pública de qual estado?",
+   "alternativas": [
+    "Espírito Santo",
+    "Ceará",
+    "Rio de Janeiro",
+    "São Paulo"
+   ],
+   "correta": 2,
+   "explicacao": "Foi a primeira intervenção federal desde 1988; houve também intervenção em Roraima no fim de 2018.",
+   "fonte": "Decreto 9.288/2018"
+  },
+  {
+   "id": "q107",
+   "nivel": "dificil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Qual mecanismo transfere parte da arrecadação do IR e do IPI aos municípios?",
+   "alternativas": [
+    "Fundo de Participação dos Municípios (FPM)",
+    "FGTS",
+    "Fundo Partidário",
+    "FUNDEB"
+   ],
+   "correta": 0,
+   "explicacao": "O FPM é uma das principais fontes de receita de pequenos municípios.",
+   "fonte": "Constituição Federal de 1988, art. 159, I"
+  },
+  {
+   "id": "q108",
+   "nivel": "dificil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Por quantos anos a Lei da Ficha Limpa torna inelegíveis os condenados enquadrados nela?",
+   "alternativas": [
+    "2 anos",
+    "8 anos",
+    "4 anos",
+    "Para sempre"
+   ],
+   "correta": 1,
+   "explicacao": "A contagem varia conforme a hipótese de inelegibilidade.",
+   "fonte": "LC 64/1990, alterada pela LC 135/2010"
+  },
+  {
+   "id": "q109",
+   "nivel": "dificil",
+   "tema": "Direitos e deveres",
+   "pergunta": "A imunidade material dos parlamentares protege:",
+   "alternativas": [
+    "Qualquer crime cometido no mandato",
+    "Bens e patrimônio",
+    "Opiniões, palavras e votos",
+    "Familiares do parlamentar"
+   ],
+   "correta": 2,
+   "explicacao": "Deputados e senadores são invioláveis civil e penalmente por suas opiniões, palavras e votos.",
+   "fonte": "Constituição Federal de 1988, art. 53"
+  },
+  {
+   "id": "q110",
+   "nivel": "dificil",
+   "tema": "Constituição Federal",
+   "pergunta": "O Distrito Federal NÃO possui:",
+   "alternativas": [
+    "Senadores",
+    "Prefeito",
+    "Deputados distritais",
+    "Governador"
+   ],
+   "correta": 1,
+   "explicacao": "O DF não pode ser dividido em municípios; acumula competências estaduais e municipais.",
+   "fonte": "Constituição Federal de 1988, art. 32"
+  },
+  {
+   "id": "q111",
+   "nivel": "dificil",
+   "tema": "Eleições e sistema eleitoral",
+   "pergunta": "Como ocorre a renovação do Senado a cada eleição geral?",
+   "alternativas": [
+    "Metade das vagas sempre",
+    "Todas as vagas a cada 8 anos",
+    "Um quarto das vagas a cada 2 anos",
+    "Alternadamente, um terço e dois terços das vagas"
+   ],
+   "correta": 3,
+   "explicacao": "Por isso, em uma eleição cada estado elege um senador e, na seguinte, dois.",
+   "fonte": "Constituição Federal de 1988, art. 46, §2º"
+  },
+  {
+   "id": "q112",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Qual órgão representa judicialmente a União?",
+   "alternativas": [
+    "Ministério Público Federal",
+    "Controladoria-Geral da União",
+    "Defensoria Pública da União",
+    "Advocacia-Geral da União"
+   ],
+   "correta": 3,
+   "explicacao": "A AGU também presta consultoria jurídica ao Executivo.",
+   "fonte": "Constituição Federal de 1988, art. 131"
+  },
+  {
+   "id": "q113",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Qual instituição presta assistência jurídica gratuita a quem não pode pagar advogado?",
+   "alternativas": [
+    "Tribunal de Contas",
+    "Ministério Público",
+    "Defensoria Pública",
+    "Advocacia-Geral da União"
+   ],
+   "correta": 2,
+   "explicacao": "É uma função essencial à Justiça.",
+   "fonte": "Constituição Federal de 1988, art. 134"
+  },
+  {
+   "id": "q114",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Quem julga o Presidente da República por crimes comuns?",
+   "alternativas": [
+    "O TSE",
+    "A Justiça Federal de primeira instância",
+    "O STF, após autorização de dois terços da Câmara",
+    "O Senado Federal"
+   ],
+   "correta": 2,
+   "explicacao": "Recebida a denúncia, o Presidente fica suspenso de suas funções.",
+   "fonte": "Constituição Federal de 1988, arts. 86 e 102, I, b"
+  },
+  {
+   "id": "q115",
+   "nivel": "dificil",
+   "tema": "Três Poderes",
+   "pergunta": "Quais são os requisitos de idade para ser nomeado ministro do STF?",
+   "alternativas": [
+    "Mais de 21 anos",
+    "Mais de 35 e menos de 70 anos",
+    "Mais de 40 e menos de 65 anos",
+    "Mais de 30 anos, sem limite máximo"
+   ],
+   "correta": 1,
+   "explicacao": "A idade máxima de 70 anos para nomeação foi fixada pela EC 122/2022; também se exige notável saber jurídico e reputação ilibada.",
+   "fonte": "Constituição Federal de 1988, art. 101; EC 122/2022"
+  },
+  {
+   "id": "q116",
+   "nivel": "dificil",
+   "tema": "Direitos e deveres",
+   "pergunta": "O serviço militar no Brasil é:",
+   "alternativas": [
+    "Proibido para menores de 21 anos",
+    "Obrigatório nos termos da lei, com isenção para mulheres e eclesiásticos em tempo de paz",
+    "Voluntário para todos",
+    "Obrigatório para todos os cidadãos"
+   ],
+   "correta": 1,
+   "explicacao": "A Constituição prevê ainda o serviço alternativo para quem alegar imperativo de consciência.",
+   "fonte": "Constituição Federal de 1988, art. 143"
+  },
+  {
+   "id": "q117",
+   "nivel": "dificil",
+   "tema": "Orçamento e impostos",
+   "pergunta": "O Fundo Especial de Financiamento de Campanha (fundo eleitoral) foi criado em que ano?",
+   "alternativas": [
+    "2022",
+    "2010",
+    "1995",
+    "2017"
+   ],
+   "correta": 3,
+   "explicacao": "Foi criado após a proibição de doações empresariais, com recursos do orçamento da União.",
+   "fonte": "Lei 13.487/2017"
+  },
+  {
+   "id": "q118",
+   "nivel": "dificil",
+   "tema": "Constituição Federal",
+   "pergunta": "Qual é o número aproximado de municípios no Brasil, segundo o IBGE?",
+   "alternativas": [
+    "Cerca de 1.200",
+    "Cerca de 3.000",
+    "Cerca de 10.000",
+    "Cerca de 5.570"
+   ],
+   "correta": 3,
+   "explicacao": "O IBGE contabiliza 5.570 municípios, incluindo o Distrito Federal e o distrito estadual de Fernando de Noronha para fins estatísticos.",
+   "fonte": "IBGE"
+  },
+  {
+   "id": "q119",
+   "nivel": "medio",
+   "tema": "Direitos e deveres",
+   "pergunta": "Qual destes é um dever previsto para o cidadão brasileiro alfabetizado entre 18 e 70 anos?",
+   "alternativas": [
+    "Filiar-se a um partido",
+    "Votar",
+    "Participar de conselhos municipais",
+    "Candidatar-se a cargo público"
+   ],
+   "correta": 1,
+   "explicacao": "Quem deixa de votar sem justificar fica sujeito a multa e a restrições, como emitir passaporte.",
+   "fonte": "Constituição Federal de 1988, art. 14, §1º; Código Eleitoral, art. 7º"
+  },
+  {
+   "id": "q120",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "O que significa 'resultado primário' das contas públicas?",
+   "alternativas": [
+    "Total arrecadado com impostos",
+    "Receitas menos despesas, sem contar juros da dívida",
+    "Diferença entre exportações e importações",
+    "Pagamento de juros da dívida"
+   ],
+   "correta": 1,
+   "explicacao": "Quando as despesas não financeiras superam as receitas, há déficit primário.",
+   "fonte": "Tesouro Nacional – Glossário"
+  },
+  {
+   "id": "q121",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "O que mede o IPCA?",
+   "alternativas": [
+    "A inflação oficial do país",
+    "A taxa de desemprego",
+    "O crescimento do PIB",
+    "A taxa básica de juros"
+   ],
+   "correta": 0,
+   "explicacao": "O Índice Nacional de Preços ao Consumidor Amplo é calculado pelo IBGE e é a referência do sistema de metas de inflação.",
+   "fonte": "IBGE"
+  },
+  {
+   "id": "q122",
+   "nivel": "medio",
+   "tema": "Orçamento e impostos",
+   "pergunta": "Quem define a taxa Selic?",
+   "alternativas": [
+    "O Congresso Nacional",
+    "O Presidente da República",
+    "O Ministério da Fazenda",
+    "O Comitê de Política Monetária (Copom) do Banco Central"
+   ],
+   "correta": 3,
+   "explicacao": "Desde a LC 179/2021, o Banco Central tem autonomia formal, com mandatos fixos para a diretoria.",
+   "fonte": "Banco Central do Brasil; LC 179/2021"
+  }
+ ]
+}

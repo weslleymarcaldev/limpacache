@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import 'app.dart';
+import 'state/app_state.dart';
+
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  final estado = AppState();
+  runApp(ChangeNotifierProvider.value(value: estado, child: const RadarPoliticoApp()));
+}

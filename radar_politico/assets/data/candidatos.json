@@ -1,0 +1,1460 @@
+{
+ "versao": 1,
+ "avisoGeral": "Informações públicas verificadas até junho de 2026. Cargos e filiações podem ter mudado após o prazo de desincompatibilização (abril de 2026) e após as eleições de outubro de 2026, cujos resultados ainda não foram incorporados. Itens marcados como 'em revisão' não devem ser tratados como fato confirmado.",
+ "candidatos": [
+  {
+   "id": "lula",
+   "nome": "Luiz Inácio Lula da Silva",
+   "cargo": "Presidente da República (mandato 2023–2026)",
+   "partido": "PT",
+   "uf": "SP",
+   "resumo": "Presidente da República em três mandatos (2003–2006, 2007–2010 e 2023–2026). Ex-dirigente sindical e fundador do PT.",
+   "posicoes": [
+    {
+     "texto": "Defende atuação do Estado como indutor do desenvolvimento, com bancos públicos e investimentos federais (Novo PAC)."
+    },
+    {
+     "texto": "Defende programas de transferência de renda e valorização real do salário mínimo."
+    },
+    {
+     "texto": "Posicionou-se contra a privatização de Petrobras, Banco do Brasil e Caixa."
+    },
+    {
+     "texto": "Defende meta de desmatamento zero na Amazônia até 2030."
+    },
+    {
+     "texto": "Declarou-se pessoalmente contrário ao aborto, tratando o tema como questão de saúde pública.",
+     "fonte": "Debates e entrevistas da campanha de 2022",
+     "data": "2022"
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Substituir o teto de gastos por nova regra fiscal.",
+     "fonte": "Diretrizes do programa de governo registrado no TSE",
+     "data": "2022"
+    },
+    {
+     "texto": "Isentar do Imposto de Renda quem ganha até R$ 5 mil por mês.",
+     "fonte": "Programa de governo – TSE",
+     "data": "2022"
+    },
+    {
+     "texto": "Retomar o Minha Casa Minha Vida e o Mais Médicos.",
+     "fonte": "Programa de governo – TSE",
+     "data": "2022"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual (Executivo). Atos relevantes: sanções e vetos registrados no Planalto."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Enviou ao Congresso o projeto do arcabouço fiscal, convertido na LC 200/2023.",
+     "fonte": "Planalto – Legislação",
+     "data": "2023"
+    },
+    {
+     "texto": "Enviou o PL 1.087/2025 (isenção do IR até R$ 5 mil com tributação mínima de altas rendas), convertido na Lei 15.270/2025.",
+     "fonte": "Planalto – Legislação",
+     "data": "2025"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Afirmou que o combate à fome seria prioridade do mandato (paráfrase).",
+     "fonte": "Discurso de posse – Planalto",
+     "data": "2023-01-01"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Isenção do IR até R$ 5 mil: lei sancionada em 2025, com vigência a partir de 2026."
+    },
+    {
+     "texto": "Desmatamento zero na Amazônia até 2030: em andamento (taxa PRODES caiu em 2023, 2024 e 2025)."
+    },
+    {
+     "texto": "Criação de um Ministério da Segurança Pública: não realizada até jun/2026; o governo enviou a PEC da Segurança Pública.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Sancionou a reforma tributária sobre consumo (EC 132/2023) e sua regulamentação (LC 214/2025).",
+     "fonte": "Planalto – Legislação"
+    },
+    {
+     "texto": "Relançou o Bolsa Família (Lei 14.601/2023).",
+     "fonte": "Planalto – Legislação"
+    },
+    {
+     "texto": "Revogou decretos de flexibilização do acesso a armas (Decreto 11.615/2023).",
+     "fonte": "Planalto – Legislação"
+    }
+   ],
+   "eixos": {
+    "economia": 20,
+    "seguranca": 30,
+    "direitos_civis": 35,
+    "papel_estado": 20,
+    "meio_ambiente": 25,
+    "liberdade_autoridade": 40,
+    "federalismo": 40,
+    "religiao_estado": 40
+   },
+   "baseEixos": "Programa de governo 2022, leis sancionadas e propostas enviadas ao Congresso em 2023–2025.",
+   "fontes": [
+    {
+     "texto": "Planalto – Legislação",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/"
+    },
+    {
+     "texto": "TSE – DivulgaCandContas",
+     "fonte": "https://divulgacandcontas.tse.jus.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "alckmin",
+   "nome": "Geraldo Alckmin",
+   "cargo": "Vice-Presidente da República e Ministro do Desenvolvimento, Indústria, Comércio e Serviços (2023–2026)",
+   "partido": "PSB",
+   "uf": "SP",
+   "resumo": "Médico. Governou São Paulo por quatro mandatos (2001–2006 e 2011–2018) pelo PSDB. Filiou-se ao PSB em 2022.",
+   "posicoes": [
+    {
+     "texto": "Defende política industrial com incentivos à inovação e à descarbonização (Nova Indústria Brasil)."
+    },
+    {
+     "texto": "Defende responsabilidade fiscal combinada a investimento público e privado."
+    },
+    {
+     "texto": "Como governador, ampliou concessões de rodovias e parcerias com o setor privado."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Neoindustrialização com foco em exportação e tecnologia.",
+     "fonte": "MDIC",
+     "data": "2024"
+    },
+    {
+     "texto": "Redução de tarifas e burocracia no comércio exterior.",
+     "fonte": "MDIC",
+     "data": "2023"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Coordenou o programa Mover (Lei 14.902/2024), de incentivo à mobilidade de baixo carbono.",
+     "fonte": "Planalto – Legislação",
+     "data": "2024"
+    },
+    {
+     "texto": "Apoiou a depreciação acelerada de máquinas e equipamentos (Lei 14.871/2024).",
+     "fonte": "Planalto – Legislação",
+     "data": "2024"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu a negociação diplomática como resposta às tarifas impostas pelos EUA em 2025 (paráfrase).",
+     "fonte": "Agência Gov / MDIC",
+     "data": "2025"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Programa Nova Indústria Brasil: lançado em jan/2024; metas para 2033 em andamento.",
+     "fonte": "MDIC",
+     "data": "2024"
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Coordenou negociações comerciais após a elevação de tarifas pelos EUA em 2025.",
+     "fonte": "MDIC",
+     "data": "2025"
+    },
+    {
+     "texto": "Como governador de SP, conduziu concessões rodoviárias e a ampliação de vagas no sistema prisional.",
+     "fonte": "Governo de SP",
+     "data": "2011–2018"
+    }
+   ],
+   "eixos": {
+    "economia": 50,
+    "seguranca": 60,
+    "direitos_civis": 60,
+    "papel_estado": 50,
+    "meio_ambiente": 45,
+    "liberdade_autoridade": 55,
+    "federalismo": 55,
+    "religiao_estado": 55
+   },
+   "baseEixos": "Histórico de gestão em SP (2001–2018) e atuação no MDIC (2023–2026).",
+   "fontes": [
+    {
+     "texto": "MDIC",
+     "fonte": "https://www.gov.br/mdic"
+    },
+    {
+     "texto": "Planalto – Legislação",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "haddad",
+   "nome": "Fernando Haddad",
+   "cargo": "Ministro da Fazenda (desde 2023)",
+   "partido": "PT",
+   "uf": "SP",
+   "resumo": "Professor universitário. Ministro da Educação (2005–2012), prefeito de São Paulo (2013–2016), candidato à Presidência em 2018 e ao governo de SP em 2022.",
+   "posicoes": [
+    {
+     "texto": "Defende regra fiscal com crescimento real limitado da despesa e meta de resultado primário."
+    },
+    {
+     "texto": "Defende tributar altas rendas, fundos exclusivos e offshores para compensar a isenção de rendas menores."
+    },
+    {
+     "texto": "Defende a reforma tributária sobre consumo (IVA dual)."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Zerar o déficit primário em 2024, com banda de tolerância.",
+     "fonte": "Ministério da Fazenda",
+     "data": "2023"
+    },
+    {
+     "texto": "Tributação mínima de rendas acima de R$ 600 mil por ano.",
+     "fonte": "Ministério da Fazenda",
+     "data": "2025"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Conduziu a elaboração da LC 200/2023 (arcabouço fiscal).",
+     "fonte": "Planalto – Legislação",
+     "data": "2023"
+    },
+    {
+     "texto": "Conduziu a tributação de fundos exclusivos e offshores (Lei 14.754/2023).",
+     "fonte": "Planalto – Legislação",
+     "data": "2023"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Afirmou que a reforma tributária simplificaria o sistema e reduziria litígios (paráfrase).",
+     "fonte": "Ministério da Fazenda",
+     "data": "2023"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Meta de déficit zero em 2024: cumprida dentro da banda de tolerância, considerando exclusões autorizadas.",
+     "fonte": "Tesouro Nacional",
+     "data": "2025"
+    },
+    {
+     "texto": "Como ministro da Educação, criou o ProUni e ampliou o Enem como forma de acesso ao ensino superior.",
+     "fonte": "MEC",
+     "data": "2005–2012"
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Coordenou a regulamentação da reforma tributária (LC 214/2025).",
+     "fonte": "Planalto – Legislação",
+     "data": "2025"
+    },
+    {
+     "texto": "Como prefeito, implantou ciclovias e reduziu limites de velocidade em vias de SP.",
+     "fonte": "Prefeitura de SP",
+     "data": "2015"
+    }
+   ],
+   "eixos": {
+    "economia": 30,
+    "seguranca": 30,
+    "direitos_civis": 30,
+    "papel_estado": 30,
+    "meio_ambiente": 30,
+    "liberdade_autoridade": 35,
+    "federalismo": 40,
+    "religiao_estado": 30
+   },
+   "baseEixos": "Medidas do Ministério da Fazenda (2023–2025) e gestão municipal em SP.",
+   "fontes": [
+    {
+     "texto": "Ministério da Fazenda",
+     "fonte": "https://www.gov.br/fazenda"
+    },
+    {
+     "texto": "Tesouro Nacional",
+     "fonte": "https://www.tesourotransparente.gov.br"
+    }
+   ],
+   "aviso": "Ministros que disputam eleições devem deixar o cargo até seis meses antes do pleito. Verifique o cargo atual.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "tebet",
+   "nome": "Simone Tebet",
+   "cargo": "Ministra do Planejamento e Orçamento (desde 2023)",
+   "partido": "MDB",
+   "uf": "MS",
+   "resumo": "Advogada e professora. Prefeita de Três Lagoas (2005–2010), vice-governadora de MS e senadora (2015–2023). Candidata à Presidência em 2022 (3ª colocada).",
+   "posicoes": [
+    {
+     "texto": "Defende revisão periódica de gastos e avaliação de políticas públicas."
+    },
+    {
+     "texto": "Defende responsabilidade fiscal com foco em educação e combate à pobreza."
+    },
+    {
+     "texto": "Defende maior presença feminina na política."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Revisão de gastos e ampliação da avaliação de políticas públicas.",
+     "fonte": "Ministério do Planejamento",
+     "data": "2023"
+    },
+    {
+     "texto": "Programa de governo de 2022 com foco em educação em tempo integral.",
+     "fonte": "TSE – Programa de governo",
+     "data": "2022"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Como senadora, votou a favor da Reforma da Previdência (PEC 6/2019).",
+     "fonte": "Senado Federal – Votações nominais",
+     "data": "2019-10-22"
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Coordenou o PPA 2024–2027 enviado ao Congresso.",
+     "fonte": "Ministério do Planejamento",
+     "data": "2023"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu que o orçamento público precisa ter menos despesas obrigatórias engessadas (paráfrase).",
+     "fonte": "Ministério do Planejamento",
+     "data": "2024",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Revisão de gastos obrigatórios: medidas parciais aprovadas no pacote fiscal de 2024 (Lei 15.077/2024).",
+     "fonte": "Planalto – Legislação",
+     "data": "2024"
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Elaborou o Plano Plurianual 2024–2027 com participação social (PPA Participativo).",
+     "fonte": "Ministério do Planejamento",
+     "data": "2023"
+    },
+    {
+     "texto": "Presidiu a CCJ do Senado em 2019–2020.",
+     "fonte": "Senado Federal",
+     "data": "2019"
+    }
+   ],
+   "eixos": {
+    "economia": 55,
+    "seguranca": 50,
+    "direitos_civis": 50,
+    "papel_estado": 55,
+    "meio_ambiente": 40,
+    "liberdade_autoridade": 40,
+    "federalismo": 55,
+    "religiao_estado": 45
+   },
+   "baseEixos": "Votações no Senado (2015–2022), programa de 2022 e atuação no Planejamento.",
+   "fontes": [
+    {
+     "texto": "Senado Federal",
+     "fonte": "https://www25.senado.leg.br"
+    },
+    {
+     "texto": "Ministério do Planejamento",
+     "fonte": "https://www.gov.br/planejamento"
+    }
+   ],
+   "aviso": "Ministros que disputam eleições devem deixar o cargo até seis meses antes do pleito. Verifique o cargo atual.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "marina",
+   "nome": "Marina Silva",
+   "cargo": "Ministra do Meio Ambiente e Mudança do Clima (2003–2008; desde 2023)",
+   "partido": "Rede",
+   "uf": "AC",
+   "resumo": "Historiadora. Senadora pelo Acre (1995–2011), candidata à Presidência em 2010, 2014 e 2018. Eleita deputada federal por SP em 2022.",
+   "posicoes": [
+    {
+     "texto": "Defende regulação ambiental rigorosa e combate ao desmatamento ilegal."
+    },
+    {
+     "texto": "Defende transição para economia de baixo carbono."
+    },
+    {
+     "texto": "É evangélica; já defendeu que temas como o aborto sejam decididos por plebiscito.",
+     "fonte": "Entrevistas de campanha",
+     "data": "2014",
+     "emRevisao": true
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Retomada do PPCDAm (plano de combate ao desmatamento na Amazônia).",
+     "fonte": "MMA",
+     "data": "2023"
+    },
+    {
+     "texto": "Plano Clima com metas setoriais de redução de emissões.",
+     "fonte": "MMA",
+     "data": "2024"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Consulte o histórico nominal no portal do Senado (1995–2011).",
+     "fonte": "Senado Federal",
+     "emRevisao": true
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Reativação do Fundo Amazônia (Decreto 11.368/2023).",
+     "fonte": "Planalto – Legislação",
+     "data": "2023"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Afirmou que a redução do desmatamento resulta de fiscalização integrada entre órgãos federais (paráfrase).",
+     "fonte": "MMA",
+     "data": "2024"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Desmatamento zero até 2030: em andamento; a taxa PRODES na Amazônia caiu em 2023, 2024 e 2025.",
+     "fonte": "INPE – PRODES"
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Coordenou a preparação da COP30, realizada em Belém em nov/2025.",
+     "fonte": "MMA",
+     "data": "2025"
+    },
+    {
+     "texto": "Entre 2004 e 2008, coordenou a primeira fase do PPCDAm.",
+     "fonte": "MMA",
+     "data": "2004"
+    }
+   ],
+   "eixos": {
+    "economia": 35,
+    "seguranca": 35,
+    "direitos_civis": 50,
+    "papel_estado": 35,
+    "meio_ambiente": 5,
+    "liberdade_autoridade": 35,
+    "federalismo": 45,
+    "religiao_estado": 50
+   },
+   "baseEixos": "Atuação no MMA, votações no Senado e programas de governo de 2010–2018.",
+   "fontes": [
+    {
+     "texto": "Ministério do Meio Ambiente",
+     "fonte": "https://www.gov.br/mma"
+    },
+    {
+     "texto": "INPE – TerraBrasilis",
+     "fonte": "https://terrabrasilis.dpi.inpe.br"
+    }
+   ],
+   "aviso": "Ministros que disputam eleições devem deixar o cargo até seis meses antes do pleito. Verifique o cargo atual.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "boulos",
+   "nome": "Guilherme Boulos",
+   "cargo": "Ministro da Secretaria-Geral da Presidência (desde out/2025)",
+   "partido": "PSOL",
+   "uf": "SP",
+   "resumo": "Professor e coordenador do MTST. Candidato à Presidência em 2018 e à Prefeitura de SP em 2020 e 2024 (2º colocado). Deputado federal (2023–2025).",
+   "posicoes": [
+    {
+     "texto": "Defende ampliação de programas de moradia popular."
+    },
+    {
+     "texto": "Defende tributação de grandes fortunas e de altas rendas."
+    },
+    {
+     "texto": "Defende a redução da jornada de trabalho e o fim da escala 6x1.",
+     "emRevisao": true
+    },
+    {
+     "texto": "Defende a descriminalização do porte de drogas para uso pessoal.",
+     "emRevisao": true
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Programa de governo de 2024 para SP com foco em moradia, transporte e periferias.",
+     "fonte": "TSE – DivulgaCandContas",
+     "data": "2024"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Votou contra o PL 490/2023 (marco temporal das terras indígenas) na Câmara.",
+     "fonte": "Câmara dos Deputados – Votações",
+     "data": "2023-05-30",
+     "emRevisao": true
+    },
+    {
+     "texto": "Votou a favor da PEC 45/2019 (reforma tributária) na Câmara.",
+     "fonte": "Câmara dos Deputados – Votações",
+     "data": "2023-07-07",
+     "emRevisao": true
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Consulte a lista de proposições de autoria no portal da Câmara.",
+     "fonte": "Câmara dos Deputados",
+     "emRevisao": true
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Afirmou que a função do ministério seria ampliar o diálogo do governo com movimentos sociais (paráfrase).",
+     "fonte": "Agência Gov",
+     "data": "2025",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Cargo no Executivo iniciado em out/2025; promessas específicas em revisão.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Atuou como coordenador nacional do MTST em ocupações e negociações por moradia.",
+     "fonte": "MTST",
+     "data": "2000–2022"
+    }
+   ],
+   "eixos": {
+    "economia": 10,
+    "seguranca": 15,
+    "direitos_civis": 10,
+    "papel_estado": 10,
+    "meio_ambiente": 15,
+    "liberdade_autoridade": 30,
+    "federalismo": 40,
+    "religiao_estado": 15
+   },
+   "baseEixos": "Programas de governo de 2018 e 2024 e votações na Câmara (2023–2025).",
+   "fontes": [
+    {
+     "texto": "Câmara dos Deputados",
+     "fonte": "https://www.camara.leg.br"
+    },
+    {
+     "texto": "TSE – DivulgaCandContas",
+     "fonte": "https://divulgacandcontas.tse.jus.br"
+    }
+   ],
+   "aviso": "Cargo informado com base em dados até 2025; verifique a situação atual.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "tabata",
+   "nome": "Tabata Amaral",
+   "cargo": "Deputada federal (2019–)",
+   "partido": "PSB",
+   "uf": "SP",
+   "resumo": "Cientista política formada em Harvard. Deputada federal desde 2019; candidata à Prefeitura de SP em 2024.",
+   "posicoes": [
+    {
+     "texto": "Atuação concentrada em educação básica e primeira infância."
+    },
+    {
+     "texto": "Defende responsabilidade fiscal combinada a políticas sociais focalizadas."
+    },
+    {
+     "texto": "Defende políticas de igualdade de gênero."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Programa de 2024 para SP com foco em educação e saúde.",
+     "fonte": "TSE – DivulgaCandContas",
+     "data": "2024"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Votou a favor da Reforma da Previdência (PEC 6/2019) em 1º turno na Câmara.",
+     "fonte": "Câmara dos Deputados – Votações",
+     "data": "2019-07-10"
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Coautora do projeto que originou a Lei 14.214/2021 (Programa de Proteção e Promoção da Saúde Menstrual).",
+     "fonte": "Planalto – Legislação",
+     "data": "2021"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu que a educação seja tratada como política de Estado, e não de governo (paráfrase).",
+     "fonte": "Câmara dos Deputados",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Mandato legislativo: promessas de campanha em revisão.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Integrou a comissão externa que acompanhou o MEC em 2019.",
+     "fonte": "Câmara dos Deputados",
+     "data": "2019"
+    }
+   ],
+   "eixos": {
+    "economia": 45,
+    "seguranca": 40,
+    "direitos_civis": 30,
+    "papel_estado": 40,
+    "meio_ambiente": 30,
+    "liberdade_autoridade": 35,
+    "federalismo": 50,
+    "religiao_estado": 35
+   },
+   "baseEixos": "Votações na Câmara (2019–2025) e programa municipal de 2024.",
+   "fontes": [
+    {
+     "texto": "Câmara dos Deputados",
+     "fonte": "https://www.camara.leg.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "ciro",
+   "nome": "Ciro Gomes",
+   "cargo": "Ex-governador do Ceará e ex-ministro",
+   "partido": "Filiação em revisão (PDT até 2025)",
+   "uf": "CE",
+   "resumo": "Advogado. Prefeito de Fortaleza, governador do Ceará (1991–1994), ministro da Fazenda (1994) e da Integração Nacional (2003–2006). Candidato à Presidência em 1998, 2002, 2018 e 2022.",
+   "posicoes": [
+    {
+     "texto": "Defende um Projeto Nacional de Desenvolvimento com política industrial ativa."
+    },
+    {
+     "texto": "Critica o patamar de juros reais e defende mudanças na política monetária."
+    },
+    {
+     "texto": "Defende renegociação de dívidas de famílias."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Programa 'Nome Limpo' de renegociação de dívidas de pessoas físicas.",
+     "fonte": "TSE – Programa de governo",
+     "data": "2018"
+    },
+    {
+     "texto": "Revisão da reforma trabalhista e da política de preços de combustíveis.",
+     "fonte": "TSE – Programa de governo",
+     "data": "2022"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não exerce mandato legislativo atualmente."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Como ministro da Integração, coordenou a fase inicial do projeto de integração do Rio São Francisco.",
+     "fonte": "MIDR",
+     "data": "2003–2006"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu que o país precisa de um projeto nacional de longo prazo (paráfrase).",
+     "fonte": "Livro 'Projeto Nacional: o dever da esperança'",
+     "data": "2020"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Sem mandato executivo recente para avaliação de promessas."
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Como ministro da Fazenda, conduziu a fase final de implantação do Plano Real (set–dez/1994).",
+     "fonte": "Ministério da Fazenda",
+     "data": "1994"
+    }
+   ],
+   "eixos": {
+    "economia": 25,
+    "seguranca": 50,
+    "direitos_civis": 50,
+    "papel_estado": 25,
+    "meio_ambiente": 40,
+    "liberdade_autoridade": 50,
+    "federalismo": 45,
+    "religiao_estado": 45
+   },
+   "baseEixos": "Programas de governo de 2018 e 2022 e livro de 2020.",
+   "fontes": [
+    {
+     "texto": "TSE – DivulgaCandContas",
+     "fonte": "https://divulgacandcontas.tse.jus.br"
+    }
+   ],
+   "aviso": "Filiação partidária em revisão.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "leite",
+   "nome": "Eduardo Leite",
+   "cargo": "Governador do Rio Grande do Sul (2019–2022; 2023–2026)",
+   "partido": "PSD",
+   "uf": "RS",
+   "resumo": "Advogado. Prefeito de Pelotas (2013–2016) e governador do RS em dois mandatos. Deixou o PSDB e filiou-se ao PSD em 2025.",
+   "posicoes": [
+    {
+     "texto": "Defende privatizações e concessões para reequilibrar as contas estaduais."
+    },
+    {
+     "texto": "Defende reformas administrativas e previdenciárias estaduais."
+    },
+    {
+     "texto": "Posiciona-se de forma liberal em temas de costumes."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Plano Rio Grande de reconstrução após as enchentes de 2024.",
+     "fonte": "Governo do RS",
+     "data": "2024"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Privatizações da CEEE, da Sulgás e da Corsan.",
+     "fonte": "Governo do RS",
+     "data": "2021–2023"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu a renegociação da dívida dos estados com a União (paráfrase).",
+     "fonte": "Governo do RS",
+     "data": "2024"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Equilíbrio fiscal estadual: adesão ao Regime de Recuperação Fiscal em 2022.",
+     "fonte": "Tesouro Nacional",
+     "data": "2022"
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Coordenou a resposta estadual às enchentes de maio de 2024.",
+     "fonte": "Governo do RS",
+     "data": "2024"
+    },
+    {
+     "texto": "Aprovou reforma da previdência estadual (2019).",
+     "fonte": "Governo do RS",
+     "data": "2019"
+    }
+   ],
+   "eixos": {
+    "economia": 70,
+    "seguranca": 60,
+    "direitos_civis": 40,
+    "papel_estado": 70,
+    "meio_ambiente": 45,
+    "liberdade_autoridade": 45,
+    "federalismo": 70,
+    "religiao_estado": 40
+   },
+   "baseEixos": "Gestão estadual (2019–2026) e programas de governo de 2018 e 2022.",
+   "fontes": [
+    {
+     "texto": "Governo do RS",
+     "fonte": "https://estado.rs.gov.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "ratinho",
+   "nome": "Ratinho Júnior",
+   "cargo": "Governador do Paraná (2019–2026)",
+   "partido": "PSD",
+   "uf": "PR",
+   "resumo": "Empresário. Deputado estadual e federal, secretário estadual de Desenvolvimento Urbano e governador do PR em dois mandatos.",
+   "posicoes": [
+    {
+     "texto": "Defende desestatização e concessões de serviços públicos."
+    },
+    {
+     "texto": "Defende parcerias com o setor privado na gestão de escolas."
+    },
+    {
+     "texto": "Defende ampliação de colégios cívico-militares."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Programa de concessões rodoviárias do Paraná.",
+     "fonte": "Governo do PR",
+     "data": "2023"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Transformação da Copel em corporação, com redução da participação estatal.",
+     "fonte": "Governo do PR",
+     "data": "2023"
+    },
+    {
+     "texto": "Programa Parceiro da Escola, com gestão administrativa privada em escolas estaduais.",
+     "fonte": "Governo do PR",
+     "data": "2024",
+     "emRevisao": true
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu o modelo de desestatização como forma de liberar recursos para áreas sociais (paráfrase).",
+     "fonte": "Governo do PR",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Ampliação de colégios cívico-militares: programa criado em 2020/2021 e expandido.",
+     "fonte": "Governo do PR",
+     "data": "2021"
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Concluiu a desestatização da Copel.",
+     "fonte": "Governo do PR",
+     "data": "2023"
+    }
+   ],
+   "eixos": {
+    "economia": 75,
+    "seguranca": 70,
+    "direitos_civis": 65,
+    "papel_estado": 75,
+    "meio_ambiente": 60,
+    "liberdade_autoridade": 60,
+    "federalismo": 70,
+    "religiao_estado": 60
+   },
+   "baseEixos": "Gestão estadual (2019–2026).",
+   "fontes": [
+    {
+     "texto": "Governo do PR",
+     "fonte": "https://www.parana.pr.gov.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "tarcisio",
+   "nome": "Tarcísio de Freitas",
+   "cargo": "Governador de São Paulo (2023–2026)",
+   "partido": "Republicanos",
+   "uf": "SP",
+   "resumo": "Engenheiro e militar da reserva. Diretor-geral do DNIT e ministro da Infraestrutura (2019–2022). Eleito governador de SP em 2022.",
+   "posicoes": [
+    {
+     "texto": "Defende privatizações e concessões de serviços públicos."
+    },
+    {
+     "texto": "Defende atuação policial mais ostensiva no combate ao crime organizado."
+    },
+    {
+     "texto": "Defende escolas cívico-militares."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Privatização da Sabesp.",
+     "fonte": "Programa de governo – TSE",
+     "data": "2022"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Lei estadual do programa Escola Cívico-Militar (2024).",
+     "fonte": "ALESP",
+     "data": "2024"
+    },
+    {
+     "texto": "Desestatização da Sabesp, concluída em jul/2024.",
+     "fonte": "Governo de SP",
+     "data": "2024"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu as operações policiais na Baixada Santista em 2023–2024 (paráfrase).",
+     "fonte": "Governo de SP",
+     "data": "2024"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Privatização da Sabesp: cumprida em 2024.",
+     "fonte": "Governo de SP",
+     "data": "2024"
+    },
+    {
+     "texto": "Câmeras corporais: o governo manteve o programa e contratou novo modelo de equipamentos em 2024.",
+     "fonte": "Governo de SP",
+     "data": "2024",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Como ministro, conduziu leilões de concessão de aeroportos, portos, rodovias e ferrovias.",
+     "fonte": "Ministério da Infraestrutura",
+     "data": "2019–2022"
+    }
+   ],
+   "eixos": {
+    "economia": 80,
+    "seguranca": 80,
+    "direitos_civis": 70,
+    "papel_estado": 80,
+    "meio_ambiente": 65,
+    "liberdade_autoridade": 65,
+    "federalismo": 65,
+    "religiao_estado": 65
+   },
+   "baseEixos": "Gestão estadual (2023–2026) e atuação no Ministério da Infraestrutura.",
+   "fontes": [
+    {
+     "texto": "Governo de SP",
+     "fonte": "https://www.sp.gov.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "zema",
+   "nome": "Romeu Zema",
+   "cargo": "Governador de Minas Gerais (2019–2026)",
+   "partido": "Novo",
+   "uf": "MG",
+   "resumo": "Empresário. Eleito governador de MG em 2018 e reeleito em 2022. Anunciou pré-candidatura à Presidência em 2025.",
+   "posicoes": [
+    {
+     "texto": "Defende redução do tamanho do Estado e privatizações."
+    },
+    {
+     "texto": "Defende ajuste fiscal e renegociação da dívida estadual."
+    },
+    {
+     "texto": "Defende endurecimento penal."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Privatização de estatais mineiras como Cemig e Copasa.",
+     "fonte": "Programa de governo – TSE",
+     "data": "2022"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Não se aplica ao cargo atual."
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Adesão de MG ao programa federal de renegociação de dívidas dos estados (Propag).",
+     "fonte": "Governo de MG",
+     "data": "2025",
+     "emRevisao": true
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu que o Estado deve se concentrar em saúde, educação e segurança (paráfrase).",
+     "fonte": "Governo de MG",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Privatização da Cemig e da Copasa: não concluída até jun/2026; depende de aprovação legislativa.",
+     "emRevisao": true
+    },
+    {
+     "texto": "Pagamento do funcionalismo em dia: retomado durante o primeiro mandato.",
+     "fonte": "Governo de MG",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Implementou reforma da previdência estadual (2020).",
+     "fonte": "Governo de MG",
+     "data": "2020"
+    }
+   ],
+   "eixos": {
+    "economia": 90,
+    "seguranca": 75,
+    "direitos_civis": 70,
+    "papel_estado": 90,
+    "meio_ambiente": 70,
+    "liberdade_autoridade": 60,
+    "federalismo": 80,
+    "religiao_estado": 60
+   },
+   "baseEixos": "Gestão estadual (2019–2026) e programa do partido Novo.",
+   "fontes": [
+    {
+     "texto": "Governo de MG",
+     "fonte": "https://www.mg.gov.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "caiado",
+   "nome": "Ronaldo Caiado",
+   "cargo": "Governador de Goiás (2019–2026)",
+   "partido": "União Brasil (filiação em revisão)",
+   "uf": "GO",
+   "resumo": "Médico e produtor rural. Deputado federal por vários mandatos, senador (2015–2018) e governador de GO. Candidato à Presidência em 1989.",
+   "posicoes": [
+    {
+     "texto": "Defende endurecimento penal e ampliação do policiamento."
+    },
+    {
+     "texto": "Defende o agronegócio e o direito de propriedade rural."
+    },
+    {
+     "texto": "Posiciona-se de forma conservadora em temas de costumes."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Programa estadual de segurança pública com integração das polícias.",
+     "fonte": "Governo de GO",
+     "data": "2019"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Como senador, votou a favor do processo de impeachment de 2016.",
+     "fonte": "Senado Federal – Votações",
+     "data": "2016-08-31"
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Consulte proposições de autoria no portal da Câmara e do Senado.",
+     "fonte": "Congresso Nacional",
+     "emRevisao": true
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu que a redução de indicadores de criminalidade em Goiás resultou de investimento em polícia (paráfrase).",
+     "fonte": "Governo de GO",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Redução de indicadores de criminalidade em GO: dados estaduais apontam queda; confirmação independente em revisão.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Fundador da União Democrática Ruralista (UDR) na década de 1980.",
+     "fonte": "CPDOC/FGV",
+     "data": "1985"
+    }
+   ],
+   "eixos": {
+    "economia": 70,
+    "seguranca": 90,
+    "direitos_civis": 85,
+    "papel_estado": 70,
+    "meio_ambiente": 75,
+    "liberdade_autoridade": 75,
+    "federalismo": 70,
+    "religiao_estado": 75
+   },
+   "baseEixos": "Atuação parlamentar e gestão estadual (2019–2026).",
+   "fontes": [
+    {
+     "texto": "Governo de GO",
+     "fonte": "https://goias.gov.br"
+    },
+    {
+     "texto": "Senado Federal",
+     "fonte": "https://www25.senado.leg.br"
+    }
+   ],
+   "aviso": "Filiação partidária em revisão.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "jbolsonaro",
+   "nome": "Jair Bolsonaro",
+   "cargo": "Ex-Presidente da República (2019–2022)",
+   "partido": "PL",
+   "uf": "RJ",
+   "resumo": "Militar da reserva. Deputado federal (1991–2018) e Presidente da República (2019–2022). Inelegível por decisão do TSE (2023). Condenado pela Primeira Turma do STF em set/2025 na ação penal sobre a tentativa de golpe de Estado; a defesa contesta a decisão.",
+   "posicoes": [
+    {
+     "texto": "Defende flexibilização do acesso a armas para civis."
+    },
+    {
+     "texto": "Posiciona-se de forma conservadora em temas de costumes."
+    },
+    {
+     "texto": "Defende redução do tamanho do Estado e privatizações."
+    },
+    {
+     "texto": "Defende endurecimento penal."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Programa de governo de 2022 com foco em liberdade econômica e segurança.",
+     "fonte": "TSE – Programa de governo",
+     "data": "2022"
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Como deputado, votou a favor da admissibilidade do impeachment de 2016.",
+     "fonte": "Câmara dos Deputados",
+     "data": "2016-04-17"
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Enviou a PEC da Reforma da Previdência, promulgada como EC 103/2019.",
+     "fonte": "Planalto – Legislação",
+     "data": "2019"
+    },
+    {
+     "texto": "Sancionou a Lei de Liberdade Econômica (Lei 13.874/2019) e a autonomia do Banco Central (LC 179/2021).",
+     "fonte": "Planalto – Legislação",
+     "data": "2019–2021"
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Defendeu publicamente o armamento de civis como direito de defesa (paráfrase).",
+     "fonte": "Pronunciamentos 2019–2022"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Reforma da Previdência: aprovada em 2019.",
+     "fonte": "Planalto – Legislação",
+     "data": "2019"
+    },
+    {
+     "texto": "Privatização da Eletrobras: concluída em 2022.",
+     "fonte": "Planalto – Legislação",
+     "data": "2022"
+    },
+    {
+     "texto": "Redução do número de ministérios para 15: não mantida ao longo do mandato.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Criou o Auxílio Brasil em substituição ao Bolsa Família (Lei 14.284/2021).",
+     "fonte": "Planalto – Legislação",
+     "data": "2021"
+    },
+    {
+     "texto": "Sancionou o novo marco do saneamento (Lei 14.026/2020).",
+     "fonte": "Planalto – Legislação",
+     "data": "2020"
+    }
+   ],
+   "eixos": {
+    "economia": 80,
+    "seguranca": 90,
+    "direitos_civis": 90,
+    "papel_estado": 75,
+    "meio_ambiente": 85,
+    "liberdade_autoridade": 80,
+    "federalismo": 55,
+    "religiao_estado": 90
+   },
+   "baseEixos": "Atos do governo 2019–2022, programa de 2022 e votações como deputado.",
+   "fontes": [
+    {
+     "texto": "Planalto – Legislação",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/"
+    },
+    {
+     "texto": "STF – Notícias",
+     "fonte": "https://portal.stf.jus.br"
+    },
+    {
+     "texto": "TSE",
+     "fonte": "https://www.tse.jus.br"
+    }
+   ],
+   "aviso": "Inelegível até 2030 por decisão do TSE. Situação processual sujeita a atualização.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "fbolsonaro",
+   "nome": "Flávio Bolsonaro",
+   "cargo": "Senador (2019–2027)",
+   "partido": "PL",
+   "uf": "RJ",
+   "resumo": "Advogado e empresário. Deputado estadual no RJ (2003–2019) e senador desde 2019.",
+   "posicoes": [
+    {
+     "texto": "Posiciona-se de forma conservadora em temas de costumes."
+    },
+    {
+     "texto": "Defende flexibilização do acesso a armas."
+    },
+    {
+     "texto": "Defende redução da carga tributária."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Pré-candidatura à Presidência anunciada pelo PL no fim de 2025.",
+     "emRevisao": true
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Consulte o histórico nominal no portal do Senado.",
+     "fonte": "Senado Federal",
+     "emRevisao": true
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Consulte proposições de autoria no portal do Senado.",
+     "fonte": "Senado Federal",
+     "emRevisao": true
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Declarações recentes em revisão.",
+     "emRevisao": true
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Mandato legislativo: promessas em revisão.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Exerceu mandatos legislativos estadual (RJ) e federal.",
+     "fonte": "Senado Federal"
+    }
+   ],
+   "eixos": {
+    "economia": 75,
+    "seguranca": 90,
+    "direitos_civis": 85,
+    "papel_estado": 75,
+    "meio_ambiente": 80,
+    "liberdade_autoridade": 75,
+    "federalismo": 55,
+    "religiao_estado": 85
+   },
+   "baseEixos": "Atuação parlamentar e posicionamento do partido; estimativa com menor grau de confiança.",
+   "fontes": [
+    {
+     "texto": "Senado Federal",
+     "fonte": "https://www25.senado.leg.br"
+    }
+   ],
+   "aviso": "Dados com menor grau de verificação; vários itens em revisão.",
+   "atualizadoEm": "2026-06-30"
+  },
+  {
+   "id": "nikolas",
+   "nome": "Nikolas Ferreira",
+   "cargo": "Deputado federal (2023–)",
+   "partido": "PL",
+   "uf": "MG",
+   "resumo": "Advogado. Vereador em Belo Horizonte (2021–2022) e deputado federal mais votado do país em 2022.",
+   "posicoes": [
+    {
+     "texto": "Posiciona-se de forma conservadora em temas de costumes e família."
+    },
+    {
+     "texto": "Contrário à descriminalização de drogas."
+    },
+    {
+     "texto": "Defende redução de impostos e do tamanho do Estado."
+    }
+   ],
+   "propostas": [
+    {
+     "texto": "Pautas de campanha em 2022 com foco em família, educação e segurança.",
+     "fonte": "TSE",
+     "data": "2022",
+     "emRevisao": true
+    }
+   ],
+   "votos": [
+    {
+     "texto": "Consulte o histórico nominal no portal da Câmara.",
+     "fonte": "Câmara dos Deputados",
+     "emRevisao": true
+    }
+   ],
+   "projetos": [
+    {
+     "texto": "Consulte proposições de autoria no portal da Câmara.",
+     "fonte": "Câmara dos Deputados",
+     "emRevisao": true
+    }
+   ],
+   "declaracoes": [
+    {
+     "texto": "Publicou vídeo em jan/2025 sobre norma da Receita Federal que ampliava o monitoramento de transações (incluindo Pix); a norma foi revogada pelo governo dias depois.",
+     "fonte": "Receita Federal",
+     "data": "2025-01"
+    }
+   ],
+   "promessas": [
+    {
+     "texto": "Mandato legislativo: promessas em revisão.",
+     "emRevisao": true
+    }
+   ],
+   "acoes": [
+    {
+     "texto": "Recebeu cerca de 1,49 milhão de votos em 2022, a maior votação para a Câmara naquele ano.",
+     "fonte": "TSE – Resultados 2022",
+     "data": "2022"
+    }
+   ],
+   "eixos": {
+    "economia": 75,
+    "seguranca": 85,
+    "direitos_civis": 95,
+    "papel_estado": 75,
+    "meio_ambiente": 75,
+    "liberdade_autoridade": 70,
+    "federalismo": 55,
+    "religiao_estado": 90
+   },
+   "baseEixos": "Atuação parlamentar e manifestações públicas; estimativa com menor grau de confiança.",
+   "fontes": [
+    {
+     "texto": "Câmara dos Deputados",
+     "fonte": "https://www.camara.leg.br"
+    },
+    {
+     "texto": "TSE",
+     "fonte": "https://www.tse.jus.br"
+    }
+   ],
+   "aviso": null,
+   "atualizadoEm": "2026-06-30"
+  }
+ ]
+}

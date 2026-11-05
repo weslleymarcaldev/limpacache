@@ -1,0 +1,4608 @@
+{
+ "versao": 1,
+ "testes": [
+  {
+   "id": "economico",
+   "titulo": "Teste Econômico",
+   "icone": "payments",
+   "tempoMin": 6,
+   "descricao": "Estado e mercado, impostos, serviços públicos, privatizações, regulação, trabalho, previdência e distribuição de renda.",
+   "explicacao": "Você verá afirmações e perguntas sobre economia. Não existe resposta certa ou errada: escolha a opção mais próxima da sua opinião. O resultado é uma estimativa.",
+   "perguntas": [
+    {
+     "texto": "O Estado deve ter papel central na definição dos rumos da economia, por meio de bancos públicos e planejamento.",
+     "tema": "Estado e mercado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "economico_01"
+    },
+    {
+     "texto": "Empresas estatais de setores como energia e saneamento deveriam ser privatizadas quando houver ganho de eficiência comprovado.",
+     "tema": "Privatizações",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_02"
+    },
+    {
+     "texto": "Sobre a carga tributária brasileira, qual frase se aproxima mais da sua opinião?",
+     "tema": "Impostos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Deveria aumentar para as rendas mais altas, ampliando serviços públicos",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Deveria ser mantida, mas redistribuída: mais tributo sobre renda e menos sobre consumo",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Deveria ser reduzida gradualmente, com corte de despesas",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Deveria ser reduzida de forma significativa, com um Estado menor",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_03"
+    },
+    {
+     "texto": "A cobrança de imposto sobre lucros e dividendos distribuídos é uma forma adequada de tornar a tributação mais progressiva.",
+     "tema": "Impostos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_04"
+    },
+    {
+     "texto": "Saúde e educação devem ser prestadas prioritariamente pelo poder público, de forma gratuita e universal.",
+     "tema": "Serviços públicos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "economico_05"
+    },
+    {
+     "texto": "Concessões, parcerias público-privadas e vouchers são boas alternativas para melhorar serviços públicos.",
+     "tema": "Serviços públicos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_06"
+    },
+    {
+     "texto": "O governo deve influenciar preços de itens essenciais, como combustíveis e energia, quando houver alta forte.",
+     "tema": "Regulação",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_07"
+    },
+    {
+     "texto": "Flexibilizar regras trabalhistas tende a gerar mais empregos formais.",
+     "tema": "Trabalho",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_08"
+    },
+    {
+     "texto": "A legislação deveria garantir mais direitos aos trabalhadores de aplicativos, mesmo que isso aumente os custos das plataformas.",
+     "tema": "Trabalho",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_09"
+    },
+    {
+     "texto": "Sobre a Previdência Social, qual caminho você prefere?",
+     "tema": "Previdência",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Ampliar benefícios e financiá-los com mais tributos sobre altas rendas",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Manter o modelo atual, com ajustes pontuais",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Endurecer regras de acesso para equilibrar as contas",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Migrar gradualmente para um modelo de capitalização individual",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_10"
+    },
+    {
+     "texto": "Programas de transferência de renda são instrumentos importantes para reduzir a desigualdade.",
+     "tema": "Distribuição de renda",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_11"
+    },
+    {
+     "texto": "O salário mínimo deve ter aumentos reais regulares, acima da inflação.",
+     "tema": "Distribuição de renda",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_12"
+    },
+    {
+     "texto": "O equilíbrio das contas públicas deve ter prioridade, mesmo que exija cortes em programas.",
+     "tema": "Contas públicas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_13"
+    },
+    {
+     "texto": "O Brasil deveria reduzir tarifas de importação e abrir mais a economia ao comércio internacional.",
+     "tema": "Comércio",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_14"
+    },
+    {
+     "texto": "O Banco Central deve definir os juros com autonomia, sem interferência do governo.",
+     "tema": "Regulação",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_15"
+    },
+    {
+     "texto": "Bancos públicos devem oferecer crédito com juros subsidiados a setores considerados estratégicos.",
+     "tema": "Estado e mercado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "economico_16"
+    }
+   ]
+  },
+  {
+   "id": "social",
+   "titulo": "Teste Social e de Direitos",
+   "icone": "diversity_3",
+   "tempoMin": 6,
+   "descricao": "Direitos civis, minorias, igualdade, família, religião e Estado, liberdade de expressão, diversidade e políticas afirmativas.",
+   "explicacao": "Temas sociais costumam envolver valores pessoais. Responda com tranquilidade: o objetivo é apenas mapear sua opinião, sem julgamento.",
+   "perguntas": [
+    {
+     "texto": "O casamento civil entre pessoas do mesmo sexo deve continuar reconhecido pela lei.",
+     "tema": "Direitos civis",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_01"
+    },
+    {
+     "texto": "A família formada por pai, mãe e filhos deve ter prioridade nas políticas públicas voltadas à família.",
+     "tema": "Família",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_02"
+    },
+    {
+     "texto": "Cotas em universidades e concursos públicos são instrumentos válidos para reduzir desigualdades.",
+     "tema": "Políticas afirmativas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_03"
+    },
+    {
+     "texto": "Valores religiosos podem orientar legitimamente as decisões de parlamentares e governantes.",
+     "tema": "Religião e Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_04"
+    },
+    {
+     "texto": "Escolas públicas não deveriam oferecer ensino religioso, nem mesmo de forma opcional.",
+     "tema": "Religião e Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_05"
+    },
+    {
+     "texto": "Sobre a interrupção voluntária da gravidez, qual opção se aproxima mais da sua opinião?",
+     "tema": "Direitos civis",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Deveria ser permitida por decisão da gestante nas primeiras semanas",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Deveria ser permitida em mais situações do que as atuais",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Deveria permanecer como hoje (estupro, risco de vida e anencefalia)",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Deveria ser mais restrita do que hoje",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_06"
+    },
+    {
+     "texto": "Abordar gênero e diversidade nas escolas contribui para reduzir discriminação.",
+     "tema": "Diversidade",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_07"
+    },
+    {
+     "texto": "Cabe principalmente à família, e não à escola, tratar de temas como sexualidade com crianças.",
+     "tema": "Família",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_08"
+    },
+    {
+     "texto": "Discursos ofensivos contra grupos sociais devem poder ser punidos por lei, mesmo que isso limite a liberdade de expressão.",
+     "tema": "Liberdade de expressão",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "social_09"
+    },
+    {
+     "texto": "Plataformas digitais devem ser responsabilizadas por conteúdos ilegais publicados por usuários.",
+     "tema": "Liberdade de expressão",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_10"
+    },
+    {
+     "texto": "A imunidade tributária de templos religiosos deve ser mantida.",
+     "tema": "Religião e Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_11"
+    },
+    {
+     "texto": "O Estado deve adotar políticas específicas de proteção a pessoas LGBTQIA+.",
+     "tema": "Minorias",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_12"
+    },
+    {
+     "texto": "Símbolos religiosos em prédios públicos são compatíveis com um Estado laico.",
+     "tema": "Religião e Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "social_13"
+    },
+    {
+     "texto": "Cada adulto deve poder decidir sobre a própria vida, desde que não prejudique terceiros, mesmo em temas polêmicos.",
+     "tema": "Igualdade e liberdade",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "social_14"
+    }
+   ]
+  },
+  {
+   "id": "seguranca",
+   "titulo": "Teste de Segurança e Justiça",
+   "icone": "local_police",
+   "tempoMin": 6,
+   "descricao": "Prevenção, policiamento, penas, sistema prisional, drogas, armas, direitos humanos e eficiência policial.",
+   "explicacao": "Segurança pública envolve escolhas difíceis. Escolha a opção mais próxima do que você pensa hoje.",
+   "perguntas": [
+    {
+     "texto": "Investir em educação, emprego e urbanização é a forma mais eficaz de reduzir a criminalidade no longo prazo.",
+     "tema": "Prevenção",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_01"
+    },
+    {
+     "texto": "Penas de prisão mais longas reduzem a criminalidade.",
+     "tema": "Penas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_02"
+    },
+    {
+     "texto": "A maioridade penal deveria ser reduzida para 16 anos.",
+     "tema": "Penas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_03"
+    },
+    {
+     "texto": "Sobre o sistema prisional, qual prioridade você considera mais importante?",
+     "tema": "Sistema prisional",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Reduzir o encarceramento com penas alternativas para crimes sem violência",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Melhorar condições e programas de ressocialização",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Ampliar o número de vagas, com construção de presídios",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Endurecer regimes e restringir benefícios como a progressão de pena",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_04"
+    },
+    {
+     "texto": "Sobre a política de drogas, qual opção se aproxima mais da sua opinião?",
+     "tema": "Drogas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Legalizar e regular, como álcool e tabaco",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Descriminalizar o porte para uso pessoal",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Manter as regras atuais",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Endurecer a punição para porte e consumo",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "seguranca_05"
+    },
+    {
+     "texto": "Sobre a posse e o porte de armas por civis:",
+     "tema": "Armas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Deveriam ser proibidos, salvo exceções muito restritas",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Deveriam seguir regras rígidas de controle",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Deveriam ser facilitados para quem cumprir requisitos",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Deveriam ser amplamente facilitados",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_06"
+    },
+    {
+     "texto": "Câmeras corporais em policiais aumentam a transparência e deveriam ser obrigatórias.",
+     "tema": "Eficiência policial",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_07"
+    },
+    {
+     "texto": "Os direitos de pessoas presas devem ser garantidos mesmo em casos de crimes graves.",
+     "tema": "Direitos humanos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "seguranca_08"
+    },
+    {
+     "texto": "A polícia deveria ter mais autonomia para agir em operações em áreas dominadas pelo crime organizado.",
+     "tema": "Policiamento",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "seguranca_09"
+    },
+    {
+     "texto": "Audiências de custódia são um instrumento importante para evitar prisões ilegais.",
+     "tema": "Direitos humanos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_10"
+    },
+    {
+     "texto": "A saída temporária de presos em datas comemorativas deveria ser extinta.",
+     "tema": "Sistema prisional",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_11"
+    },
+    {
+     "texto": "A eficiência policial deve ser medida principalmente pela redução de homicídios, e não pelo número de prisões.",
+     "tema": "Eficiência policial",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_12"
+    },
+    {
+     "texto": "O uso das Forças Armadas em ações de segurança pública deveria ser ampliado.",
+     "tema": "Policiamento",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "seguranca_13"
+    },
+    {
+     "texto": "Programas de prevenção para jovens em áreas vulneráveis deveriam receber mais recursos do que a expansão do policiamento ostensivo.",
+     "tema": "Prevenção",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "seguranca_14"
+    }
+   ]
+  },
+  {
+   "id": "ambiental",
+   "titulo": "Teste Ambiental",
+   "icone": "forest",
+   "tempoMin": 5,
+   "descricao": "Regulação ambiental, desmatamento, energias renováveis, mineração, agronegócio, clima e desenvolvimento versus preservação.",
+   "explicacao": "Este teste mede como você equilibra produção econômica e proteção ambiental.",
+   "perguntas": [
+    {
+     "texto": "O licenciamento ambiental deve ser rigoroso, mesmo que atrase obras de infraestrutura.",
+     "tema": "Regulação ambiental",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_01"
+    },
+    {
+     "texto": "O desenvolvimento econômico deve ter prioridade quando entra em conflito com a preservação ambiental.",
+     "tema": "Desenvolvimento x preservação",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_02"
+    },
+    {
+     "texto": "O Brasil deveria perseguir a meta de zerar o desmatamento ilegal, mesmo com custos para alguns setores.",
+     "tema": "Desmatamento",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_03"
+    },
+    {
+     "texto": "A exploração de petróleo em novas fronteiras, como a Margem Equatorial, deve ser autorizada.",
+     "tema": "Energia",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_04"
+    },
+    {
+     "texto": "O Estado deve oferecer incentivos financeiros a energias renováveis, como solar e eólica.",
+     "tema": "Energias renováveis",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "ambiental_05"
+    },
+    {
+     "texto": "A mineração em terras indígenas deveria ser permitida, com regras e consulta às comunidades.",
+     "tema": "Mineração",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_06"
+    },
+    {
+     "texto": "O agronegócio deveria ter regras ambientais menos restritivas para ampliar a produção.",
+     "tema": "Agronegócio",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_07"
+    },
+    {
+     "texto": "A mudança do clima causada por atividades humanas exige ações urgentes do governo.",
+     "tema": "Mudanças climáticas",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_08"
+    },
+    {
+     "texto": "Multas ambientais deveriam ser mais altas e cobradas com mais rigor.",
+     "tema": "Regulação ambiental",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_09"
+    },
+    {
+     "texto": "A demarcação de terras indígenas contribui para a preservação ambiental.",
+     "tema": "Desmatamento",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_10"
+    },
+    {
+     "texto": "O registro de novos agrotóxicos deveria ser mais ágil.",
+     "tema": "Agronegócio",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_11"
+    },
+    {
+     "texto": "Qual frase descreve melhor sua visão sobre crescimento e meio ambiente?",
+     "tema": "Desenvolvimento x preservação",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Preservar deve vir primeiro, mesmo com menor crescimento",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "É possível conciliar, com regras ambientais fortes",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "É possível conciliar, com regras mais simples e rápidas",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "O crescimento deve vir primeiro; a preservação pode ser ajustada depois",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "ambiental_12"
+    }
+   ]
+  },
+  {
+   "id": "papel_estado",
+   "titulo": "Teste de Papel do Estado",
+   "icone": "account_balance",
+   "tempoMin": 5,
+   "descricao": "Tamanho do Estado, burocracia, serviços públicos, estatais, liberdade econômica, programas sociais, intervenção e federalismo.",
+   "explicacao": "Aqui o foco é o tamanho e a forma de atuação do Estado, incluindo a divisão de poder entre União, estados e municípios.",
+   "perguntas": [
+    {
+     "texto": "Sobre o tamanho do Estado brasileiro:",
+     "tema": "Tamanho do Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Deveria crescer para oferecer mais serviços",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Está adequado, mas precisa ser mais eficiente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Deveria ser reduzido em algumas áreas",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Deveria ser bastante reduzido",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_01"
+    },
+    {
+     "texto": "A burocracia para abrir e manter empresas deveria ser drasticamente reduzida.",
+     "tema": "Burocracia",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_02"
+    },
+    {
+     "texto": "Empresas como Petrobras e Banco do Brasil devem continuar sob controle do Estado.",
+     "tema": "Empresas estatais",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_03"
+    },
+    {
+     "texto": "Programas sociais devem ser ampliados, mesmo que exijam mais gastos públicos.",
+     "tema": "Programas sociais",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_04"
+    },
+    {
+     "texto": "Programas sociais devem ter regras de saída e contrapartidas mais exigentes.",
+     "tema": "Programas sociais",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_05"
+    },
+    {
+     "texto": "O Estado deve intervir em setores estratégicos para garantir a soberania nacional.",
+     "tema": "Intervenção estatal",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_06"
+    },
+    {
+     "texto": "Liberdade econômica é a principal condição para a prosperidade de um país.",
+     "tema": "Liberdade econômica",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "economia": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_07"
+    },
+    {
+     "texto": "Estados e municípios deveriam ter mais autonomia para arrecadar e decidir onde gastar.",
+     "tema": "Federalismo",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_08"
+    },
+    {
+     "texto": "Políticas de educação e saúde devem seguir padrões nacionais definidos pela União.",
+     "tema": "Federalismo",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_09"
+    },
+    {
+     "texto": "Os estados deveriam ter mais liberdade para definir suas próprias políticas de segurança pública.",
+     "tema": "Federalismo",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_10"
+    },
+    {
+     "texto": "A estabilidade dos servidores públicos deveria ser revista para algumas carreiras.",
+     "tema": "Serviços públicos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_11"
+    },
+    {
+     "texto": "Concursos públicos e carreiras estáveis são essenciais para um serviço público de qualidade.",
+     "tema": "Serviços públicos",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "papel_estado_12"
+    }
+   ]
+  },
+  {
+   "id": "instituicoes",
+   "titulo": "Teste de Instituições e Democracia",
+   "icone": "gavel",
+   "tempoMin": 5,
+   "descricao": "Separação dos poderes, transparência, combate à corrupção, liberdade de imprensa, controle social e participação política.",
+   "explicacao": "Este teste mede sua preferência entre garantias individuais e maior autoridade do Estado, além da participação cidadã. Não é um teste de esquerda ou direita.",
+   "perguntas": [
+    {
+     "texto": "A independência entre Executivo, Legislativo e Judiciário deve ser preservada mesmo quando atrasa decisões importantes.",
+     "tema": "Separação dos poderes",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_01"
+    },
+    {
+     "texto": "Em momentos de crise, o chefe do Executivo deveria ter poderes ampliados para agir com rapidez.",
+     "tema": "Separação dos poderes",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_02"
+    },
+    {
+     "texto": "A liberdade de imprensa deve ser protegida mesmo quando a cobertura é crítica a quem governa.",
+     "tema": "Liberdade de imprensa",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_03"
+    },
+    {
+     "texto": "O governo deveria poder restringir a divulgação de notícias que considere falsas.",
+     "tema": "Liberdade de imprensa",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_04"
+    },
+    {
+     "texto": "Dados sobre gastos públicos devem estar disponíveis em tempo real para qualquer cidadão.",
+     "tema": "Transparência",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_05"
+    },
+    {
+     "texto": "O combate à corrupção justifica flexibilizar algumas garantias processuais dos investigados.",
+     "tema": "Combate à corrupção",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_06"
+    },
+    {
+     "texto": "Conselhos de políticas públicas e consultas populares deveriam ter mais peso nas decisões de governo.",
+     "tema": "Controle social",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "federalismo": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "federalismo": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "federalismo": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "federalismo": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_07"
+    },
+    {
+     "texto": "O voto deveria ser facultativo no Brasil.",
+     "tema": "Participação política",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_08"
+    },
+    {
+     "texto": "Manifestações de rua devem ser garantidas mesmo quando causam transtornos ao trânsito e ao comércio.",
+     "tema": "Participação política",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_09"
+    },
+    {
+     "texto": "Prefeituras deveriam ter mais poder de decisão do que o governo federal sobre políticas locais.",
+     "tema": "Federalismo",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "federalismo": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_10"
+    },
+    {
+     "texto": "Leis que ampliam a vigilância do Estado sobre comunicações digitais são aceitáveis para garantir segurança.",
+     "tema": "Liberdades",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_11"
+    },
+    {
+     "texto": "Emendas parlamentares deveriam ter regras de transparência mais rígidas, com identificação do autor e do beneficiário.",
+     "tema": "Transparência",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "instituicoes_12"
+    }
+   ]
+  },
+  {
+   "id": "rapido",
+   "titulo": "Teste Rápido de Posicionamento Geral",
+   "icone": "bolt",
+   "tempoMin": 3,
+   "rapido": true,
+   "descricao": "12 perguntas que resumem seu posicionamento geral em uma escala de esquerda a direita.",
+   "explicacao": "Versão curta para uma visão geral. Para um perfil mais preciso, faça também os testes temáticos.",
+   "perguntas": [
+    {
+     "texto": "O Estado deve ter papel ativo na economia para reduzir desigualdades.",
+     "tema": "Economia",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 0.5
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        },
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 0.5
+        }
+       }
+      }
+     ],
+     "id": "rapido_01"
+    },
+    {
+     "texto": "Reduzir impostos e gastos públicos é o melhor caminho para o crescimento.",
+     "tema": "Economia",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "economia": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "economia": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_02"
+    },
+    {
+     "texto": "Privatizar empresas estatais tende a melhorar os serviços.",
+     "tema": "Papel do Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_03"
+    },
+    {
+     "texto": "Programas de transferência de renda devem ser ampliados.",
+     "tema": "Papel do Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "papel_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_04"
+    },
+    {
+     "texto": "Penas mais duras são a principal forma de combater o crime.",
+     "tema": "Segurança",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_05"
+    },
+    {
+     "texto": "Políticas sociais são mais eficazes do que a repressão para reduzir a violência no longo prazo.",
+     "tema": "Segurança",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_06"
+    },
+    {
+     "texto": "O casamento civil entre pessoas do mesmo sexo deve continuar reconhecido.",
+     "tema": "Costumes",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_07"
+    },
+    {
+     "texto": "Valores religiosos devem orientar as leis do país.",
+     "tema": "Religião e Estado",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "religiao_estado": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_08"
+    },
+    {
+     "texto": "A proteção ambiental deve ter prioridade sobre a expansão da produção.",
+     "tema": "Meio ambiente",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "meio_ambiente": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_09"
+    },
+    {
+     "texto": "A posse de armas por civis deve ser facilitada.",
+     "tema": "Segurança",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "seguranca": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_10"
+    },
+    {
+     "texto": "Cotas são instrumentos válidos para reduzir desigualdades.",
+     "tema": "Costumes",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "direitos_civis": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_11"
+    },
+    {
+     "texto": "O Estado deve garantir liberdades individuais mesmo quando contrariam a opinião da maioria.",
+     "tema": "Liberdades",
+     "alternativas": [
+      {
+       "letra": "A",
+       "texto": "Concordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 1,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "B",
+       "texto": "Concordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 2,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "C",
+       "texto": "Discordo em parte",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 3,
+         "peso": 1.0
+        }
+       }
+      },
+      {
+       "letra": "D",
+       "texto": "Discordo totalmente",
+       "pontuacao": {
+        "liberdade_autoridade": {
+         "pontos": 4,
+         "peso": 1.0
+        }
+       }
+      }
+     ],
+     "id": "rapido_12"
+    }
+   ]
+  }
+ ]
+}

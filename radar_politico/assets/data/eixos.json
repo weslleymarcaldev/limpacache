@@ -1,0 +1,69 @@
+{
+ "versao": 1,
+ "eixos": [
+  {
+   "id": "economia",
+   "nome": "Economia",
+   "poloA": "Mais Estado",
+   "poloB": "Mais mercado",
+   "descricao": "Grau de participação do Estado versus do mercado na economia: tributação, regulação, estatais, crédito e comércio.",
+   "esquerdaDireita": "A"
+  },
+  {
+   "id": "seguranca",
+   "nome": "Segurança",
+   "poloA": "Prevenção social",
+   "poloB": "Endurecimento penal",
+   "descricao": "Ênfase em prevenção, ressocialização e políticas sociais versus penas mais duras, policiamento e restrição de benefícios.",
+   "esquerdaDireita": "A"
+  },
+  {
+   "id": "direitos_civis",
+   "nome": "Direitos civis e costumes",
+   "poloA": "Progressista",
+   "poloB": "Conservador",
+   "descricao": "Posições sobre família, diversidade, políticas afirmativas e temas morais. Progressista = favorável a mudanças nos costumes; conservador = preservação de valores tradicionais.",
+   "esquerdaDireita": "A"
+  },
+  {
+   "id": "papel_estado",
+   "nome": "Papel do Estado",
+   "poloA": "Mais intervenção",
+   "poloB": "Menos intervenção",
+   "descricao": "Tamanho do Estado, programas sociais, servidores, burocracia e intervenção estatal em geral.",
+   "esquerdaDireita": "A"
+  },
+  {
+   "id": "meio_ambiente",
+   "nome": "Meio ambiente",
+   "poloA": "Regulação forte",
+   "poloB": "Menor regulação",
+   "descricao": "Rigor do licenciamento, metas de desmatamento, clima e equilíbrio entre produção e preservação.",
+   "esquerdaDireita": "A"
+  },
+  {
+   "id": "liberdade_autoridade",
+   "nome": "Liberdade × autoridade",
+   "poloA": "Liberdade individual",
+   "poloB": "Autoridade e ordem",
+   "descricao": "Preferência por garantias individuais e limites ao poder do Estado versus maior autoridade, controle e ordem. Este eixo não é tratado como esquerda/direita.",
+   "esquerdaDireita": null
+  },
+  {
+   "id": "federalismo",
+   "nome": "Federalismo",
+   "poloA": "Centralização na União",
+   "poloB": "Descentralização",
+   "descricao": "Distribuição de poder e recursos entre União, estados e municípios. Este eixo não é tratado como esquerda/direita.",
+   "esquerdaDireita": null
+  },
+  {
+   "id": "religiao_estado",
+   "nome": "Religião e Estado",
+   "poloA": "Laicidade estrita",
+   "poloB": "Maior presença religiosa",
+   "descricao": "Grau de separação entre instituições religiosas e o Estado: símbolos, ensino religioso, isenções e influência em leis.",
+   "esquerdaDireita": "A"
+  }
+ ]
+}
